@@ -1,0 +1,145 @@
+Starting local SSH server on localhost...
+Requesting a disposable SSH proxy on as.teleconsole.com for zukz1...
+Checking status of the SSH tunnel...
+
+Your Teleconsole ID: [1mas27c05a5187c9cc9856dfbc30c248589c06ce2c0e[0m
+WebUI for this session: https://as.teleconsole.com/s/27c05a5187c9cc9856dfbc30c248589c06ce2c0e
+To stop broadcasting, exit current shell by typing 'exit' or closing the window.
+$ [8;25;80tls
+Desktop    Downloads  Pictures	Templates  fuel_details
+Documents  Music      Public	Videos	   test.py
+$ sudos    su
+]0;root@localhost: /home/zukz1root@localhost:/home/zukz1# cd fuel_details/
+]0;root@localhost: /home/zukz1/fuel_detailsroot@localhost:/home/zukz1/fuel_details# ls
+[0m[34;42mcgi-bin[0m    [34;42mdata[0m               [01;32mindex.html[0m  [01;32mlocalhost.txt[0m  [34;42mteleconsole[0m  [01;32mtest.txt[0m
+[01;32mcodes.txt[0m  [01;32mfuel_details.xlsx[0m  [34;42mkeepalive[0m   [01;32mserver.py[0m      [01;32mtest.py[0m
+]0;root@localhost: /home/zukz1/fuel_detailsroot@localhost:/home/zukz1/fuel_details# cd cgi-bin/
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# ls
+[0m[01;32maddstock.py[0m  [01;32mfuel_details.xlsx[0m  [01;32mopen.py[0m  [01;32mterminal.py[0m  [01;32mtest.py[0m
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# vim test.py 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;25r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[25;1H"test.py" 11L, 355C
+[97m[41mError detected while processing BufRead Auto commands for "*.py":[m
+[97m[41mE518: Unknown option: set [2;1H½[6n[2;1H  [1;1H[>c]10;?]11;?[m[25;1H
+[32mPress ENTER or type command to continue[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[m[1;1H[3L[?25l[1;1H[38;5;130m  1 [m[35mfrom[m openpyxl [35mimport[m Workbook, load_workbook
+[38;5;130m  2 [m[34m#wb = Workbook()[m
+[38;5;130m  3 [m[34m#wb.save("fuel_details.xlsx")[m
+[38;5;130m  4 [mwb = load_workbook([31m"fuel_details.xlsx"[m)
+[38;5;130m  5 [m[34m#wb.create_sheet("sheet1",0)[m
+[38;5;130m  6 [m[34m#wb.create_sheet("sheet2",1)[m
+[38;5;130m  7 [m[34m#wb['sheet1'].append(["hello","my","name"])[m
+[38;5;130m  8 [m[34m#wb['sheet2'].append(["helloo","mmy","nnname"])[m
+[38;5;130m  9 [m[34m#wb.save("fuel_details.xlsx")[m
+[38;5;130m 10 [mws = wb.Worksheet()
+[38;5;130m 11 [m[36mprint[m(wb.delete_row())
+[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;1H[K[25;63H1,1[11CAll[1;5H[?25h[?25l[25;63H2[2;5H[?25h[?25l[25;63H3[3;5H[?25h[?25l[25;63H4[4;5H[?25h[?25l[25;63H5[5;5H[?25h[?25l[25;63H6[6;5H[?25h[?25l[25;63H7[7;5H[?25h[?25l[25;63H8[8;5H[?25h[?25l[25;63H9[9;5H[?25h[?25l[25;63H8,47[8;51H[?25h[?25l[25;1H[1m-- INSERT --[m[25;63H[K[25;63H8,47[10CAll[8;51H[?25h[?25l[25;66H8[8;52H[?25h[?25l[25;63H9,30[9;34H[?25h[?25l[10;22H[106m()[m[25;63H10,20[10;24H[?25h[?25l()[11;10H[106m([15C)[m[25;64H1,23[11;27H[?25h[?25l[10;22H[106m()[m[11;10H([15C)[25;64H0,20[10;24H[?25h[?25l[25;66H19[10;23H[?25h[?25l[25;67H8[10;22H[?25h[?25l()[25;67H7[10;21H[?25h[?25l[25;67H6[10;20H[?25h[?25l[25;67H5[10;19H[?25h[?25l[25;67H4[10;18H[?25h[?25l[25;67H3[10;17H[?25h[?25l[25;67H2[10;16H[?25h[?25l[25;67H1[10;15H[?25h[?25l[25;67H0[10;14H[?25h[?25l[25;66H9 [10;13H[?25h[?25l[25;66H8[10;12H[?25h[?25l[25;66H9[10;13H[?25h[?25l[25;66H10[10;14H[?25h[?25l[25;67H1[10;15H[?25h[?25l[25;67H2[10;16H[?25h[?25l[25;67H4[10;18H[?25h[?25l[25;67H5[10;19H[?25h[?25l[25;67H6[10;20H[?25h[?25l[25;67H7[10;21H[?25h[?25lt[106m()[m[25;67H8[10;22H[?25h[?25l[25;67H9[10;23H[?25h[?25l[25;66H20[10;24H[?25h[?25l[10;23H[K[10;22H([25;66H19[10;23H[?25h[?25l[10;22H[K[25;67H8[10;22H[?25h[?25l[10;21H[K[25;67H7[10;21H[?25h[?25l[10;20H[K[25;67H6[10;20H[?25h[?25l[10;18H[K[25;67H4[10;18H[?25h[?25l[10;17H[K[25;67H3[10;17H[?25h[?25l[10;16H[K[25;67H2[10;16H[?25h[?25l[10;15H[K[25;67H1[10;15H[?25h[?25l[10;14H[K[25;67H0[10;14H[?25h[?25l[10;13H[K[25;66H9 [10;13H[?25h[?25l[10;12H[K[25;66H8[10;12H[?25h[?25l[[25;66H9[10;13H[?25h[?25l][106m[][m[25;66H10[10;14H[?25h[?25l[25;66H9 [10;13H[?25h[?25l[31m[106m"[m[31m][11;5Hprint(wb.delete_row())[m[10;12H[[31m"[m[25;66H10[10;14H[?25h[?25l[31m"[m][11;5H[36mprint[m(wb.delete_row())[10;12H[106m[[2C][m[25;67H1[10;15H[?25h[?25l[[2C][25;67H0[10;14H[?25h[?25l[31ms"[m][25;67H1[10;15H[?25h[?25l[31mh"[m][25;67H2[10;16H[?25h[?25l[31me"[m][25;67H3[10;17H[?25h[?25l[31me"[m][25;67H4[10;18H[?25h[?25l[31mt"[m][25;67H5[10;19H[?25h[?25l[31m1"[m][25;67H6[10;20H[?25h[?25l[10;12H[106m[[8C][m[25;67H7[10;21H[?25h[?25l[25;67H8[10;22H[?25h[?25l.[10;12H[[8C][25;67H9[10;23H[?25h[?25l[10;22H[K[10;12H[106m[[8C][m[25;67H8[10;22H[?25h[?25l[10;12H[[8C][25;64H1[11;22H[?25h[?25l[25;67H7[11;21H[?25h[?25l[25;67H6[11;20H[?25h[?25l[25;67H5[11;19H[?25h[?25l[25;67H4[11;18H[?25h[?25l[25;67H3[11;17H[?25h[?25l[25;67H2[11;16H[?25h[?25l[25;67H1[11;15H[?25h[?25l[25;67H0[11;14H[?25h[?25l[25;66H9 [11;13H[?25h[?25l.delete_row()[11;26H[K[25;66H8[11;12H[?25h[?25ls.delete_row())[25;66H9[11;13H[?25h[?25l[25;66H10[11;14H[?25h[?25l[25;67H1[11;15H[?25h[?25l[25;67H2[11;16H[?25h[?25l[25;67H3[11;17H[?25h[?25l[25;67H4[11;18H[?25h[?25l[25;67H5[11;19H[?25h[?25l[25;67H6[11;20H[?25h[?25l[25;67H7[11;21H[?25h[?25l[25;67H8[11;22H[?25h[?25l[25;67H9[11;23H[?25h[?25lw[106m()[m[25;66H20[11;24H[?25h[?25l[106ms([m))s[1C[106m)[m[25;67H1[11;25H[?25h[?25l[25;67H2[11;26H[?25h[?25l[25;67H1[11;25H[?25h[?25l[25;4H[1mREPLACE --[m[25;63H[K[25;63H11,21[9CAll[11;25H[?25h[?25l[25;4H[1mINSERTE -[m[25;13H[K[25;63H11,21[9CAll[11;25H[?25h[?25l()[25;67H0[11;24H[?25h[?25ls[106m()[m[25;67H1[11;25H[?25h[?25l[25;67H2[11;26H[?25h[?25l[11;10H[106m([m[14C()[106m)[m[25;67H3[11;27H[?25h[?25l[25;67H4[11;28H[?25h[?25l[25;4H[1mREPLACE --[m[25;63H[K[25;63H11,24[9CAll[11;28H[?25h[?25l[25;4H[1mINSERTE -[m[25;13H[K[25;63H11,24[9CAll[11;28H[?25h[?25l[25;67H3[11;27H[?25h[?25l[11;10H([14C[106m()[m)[25;67H2[11;26H[?25h[?25l[106m [m  ))   [106m)[m[25;67H5[11;29H[?25h[?25l))[11;29H[K[11;26H[106m)[m[25;67H2[11;26H[?25h[?25l[106m)[m[11;27H[K[11;10H[106m([m[15C)[25;67H1[11;25H[?25h[?25l[106m([m))[11;10H([15C[106m)[m[25;67H2[11;26H[?25h[?25l[31m[106m1[m))[31m1[m[106m)[m[25;67H3[11;27H[?25h[?25l[11;10H[106m([m[14C([1C)[106m)[m[25;67H4[11;28H[?25h[?25l[25;67H5[11;29H[?25h[25;1H[K[11;28H[?25l[25;63H11,24[9CAll[11;28H[?25h[?25l[25;63H[K[25;1H:[?2004hwq[?2004l"test.py" 11L, 355C written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# vim test.py 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;25r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[25;1H"test.py" 11L, 355C
+[97m[41mError detected while processing BufRead Auto commands for "*.py":[m
+[97m[41mE518: Unknown option: set [2;1H½[6n[2;1H  [1;1H[>c]10;?]11;?[m[25;1H
+[32mPress ENTER or type command to continue[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[m[1;1H[3L[?25l[1;1H[38;5;130m  1 [m[35mfrom[m openpyxl [35mimport[m Workbook, load_workbook
+[38;5;130m  2 [m[34m#wb = Workbook()[m
+[38;5;130m  3 [m[34m#wb.save("fuel_details.xlsx")[m
+[38;5;130m  4 [mwb = load_workbook([31m"fuel_details.xlsx"[m)
+[38;5;130m  5 [m[34m#wb.create_sheet("sheet1",0)[m
+[38;5;130m  6 [m[34m#wb.create_sheet("sheet2",1)[m
+[38;5;130m  7 [m[34m#wb['sheet1'].append(["hello","my","name"])[m
+[38;5;130m  8 [m[34m#wb['sheet2'].append(["helloo","mmy","nnname"])[m
+[38;5;130m  9 [m[34m#wb.save("fuel_details.xlsx")[m
+[38;5;130m 10 [mws = wb[[31m"sheet1"[m]
+[38;5;130m 11 [m[36mprint[m(ws.delete_rows([31m1[m))
+[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;1H[K[25;63H1,1[11CAll[1;5H[?25h[?25l[25;63H2[2;5H[?25h[?25l[25;63H3[3;5H[?25h[?25l[25;63H4[4;5H[?25h[?25l[25;63H5[5;5H[?25h[?25l[25;63H[K[25;1H:[?2004h[?25hwq[?25l[?2004l"test.py" 11L, 355C written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 te` 
+terminal.py  test.py      
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
+None
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py [4Pvim test.py  
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;25r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[25;1H"test.py" 11L, 355C
+[97m[41mError detected while processing BufRead Auto commands for "*.py":[m
+[97m[41mE518: Unknown option: set [2;1H½[6n[2;1H  [1;1H[>c]10;?]11;?[m[25;1H
+[32mPress ENTER or type command to continue[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[m[1;1H[3L[?25l[1;1H[38;5;130m  1 [m[35mfrom[m openpyxl [35mimport[m Workbook, load_workbook
+[38;5;130m  2 [m[34m#wb = Workbook()[m
+[38;5;130m  3 [m[34m#wb.save("fuel_details.xlsx")[m
+[38;5;130m  4 [mwb = load_workbook([31m"fuel_details.xlsx"[m)
+[38;5;130m  5 [m[34m#wb.create_sheet("sheet1",0)[m
+[38;5;130m  6 [m[34m#wb.create_sheet("sheet2",1)[m
+[38;5;130m  7 [m[34m#wb['sheet1'].append(["hello","my","name"])[m
+[38;5;130m  8 [m[34m#wb['sheet2'].append(["helloo","mmy","nnname"])[m
+[38;5;130m  9 [m[34m#wb.save("fuel_details.xlsx")[m
+[38;5;130m 10 [mws = wb[[31m"sheet1"[m]
+[38;5;130m 11 [m[36mprint[m(ws.delete_rows([31m1[m))
+[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;1H[K[25;63H1,1[11CAll[1;5H[?25h[?25l[25;63H2[2;5H[?25h[?25l[25;63H3[3;5H[?25h[?25l[25;63H4[4;5H[?25h[?25l[25;63H5[5;5H[?25h[?25l[25;63H6[6;5H[?25h[?25l[25;63H7[7;5H[?25h[?25l[25;63H8[8;5H[?25h[?25l[25;63H9[9;5H[?25h[?25l[25;63H10,1[10;5H[?25h[?25l[25;64H1[11;5H[?25h[?25l[25;66H2[11;6H[?25h[?25l[25;66H3[11;7H[?25h[?25l[25;66H4[11;8H[?25h[?25l[25;66H5[11;9H[?25h[?25l[1C[106m([17C)[m[25;66H6[11;10H[?25h[?25l([17C)[25;66H7[11;11H[?25h[?25l[25;66H8[11;12H[?25h[?25l[25;66H9[11;13H[?25h[?25l[25;66H10[11;14H[?25h[?25l[25;64H0[10;14H[?25h[?25l[25;63H9,10 [9;14H[?25h[?25l[25;66H1[9;15H[?25h[?25l[25;63H8[8;15H[?25h[?25l[25;66H0[8;14H[?25h[?25l[25;65H9 [8;13H[?25h[?25l[25;65H8[8;12H[?25h[?25l[25;65H7[8;11H[?25h[?25l[25;65H6[8;10H[?25h[?25l[25;65H5[8;9H[?25h[?25l[25;65H4[8;8H[?25h[?25l[25;65H3[8;7H[?25h[?25l[25;65H2[8;6H[?25h[?25l[25;63H7[7;6H[?25h[?25l[25;1H[1m-- INSERT --[m[25;63H[K[25;63H7,2[11CAll[7;6H[?25h[?25lwb[[31m'sheet1'[m].append([[31m"hello"[m,[31m"my"[m,[31m"name"[m])[7;47H[K[25;65H1[7;5H[?25h[?25l[25;63H8[8;5H[?25h[?25l[25;63H9[9;5H[?25h[?25l[25;63H10,1[10;5H[?25h[?25l[25;64H1[11;5H[?25h[?25l[25;64H0[10;5H[?25h[?25l[25;64H1[11;5H[?25h[?25l[34m#print(ws.delete_rows(1))[m[25;66H2[11;6H[?25h[?25l[25;64H0[10;6H[?25h[?25l[25;63H9,2 [9;6H[?25h[?25lwb.save([31m"fuel_details.xlsx"[m)[9;33H[K[25;65H1[9;5H[?25h[?25l[25;65H2[9;6H[?25h[?25l[25;65H3[9;7H[?25h[?25l[25;65H4[9;8H[?25h[?25l[25;65H5[9;9H[?25h[?25l[25;65H6[9;10H[?25h[?25l[25;65H7[9;11H[?25h[?25le[106m([19C)[m[25;65H8[9;12H[?25h[?25l[25;65H9[9;13H[?25h[?25l([19C)[25;65H10[9;14H[?25h[?25l[31m.fuel_details.xlsx"[m)[25;66H1[9;15H[?25h[?25l[31m.fuel_details.xlsx"[m)[25;66H2[9;16H[?25h[?25l[31m/fuel_details.xlsx"[m)[25;66H3[9;17H[?25h[25;1H[K[9;16H[?25l[25;63H9,12[10CAll[9;16H[?25h[?25l[25;63H[K[25;1H:[?2004h[?25hwq[?25l[?2004l"test.py" 11L, 357C written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# vim test.pypython3 test.py 
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py [5Pvim test.py
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;25r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[25;1H"test.py" 11L, 357C
+[97m[41mError detected while processing BufRead Auto commands for "*.py":[m
+[97m[41mE518: Unknown option: set [2;1H½[6n[2;1H  [1;1H[>c]10;?]11;?[m[25;1H
+[32mPress ENTER or type command to continue[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[m[1;1H[3L[?25l[1;1H[38;5;130m  1 [m[35mfrom[m openpyxl [35mimport[m Workbook, load_workbook
+[38;5;130m  2 [m[34m#wb = Workbook()[m
+[38;5;130m  3 [m[34m#wb.save("fuel_details.xlsx")[m
+[38;5;130m  4 [mwb = load_workbook([31m"fuel_details.xlsx"[m)
+[38;5;130m  5 [m[34m#wb.create_sheet("sheet1",0)[m
+[38;5;130m  6 [m[34m#wb.create_sheet("sheet2",1)[m
+[38;5;130m  7 [mwb[[31m'sheet1'[m].append([[31m"hello"[m,[31m"my"[m,[31m"name"[m])
+[38;5;130m  8 [m[34m#wb['sheet2'].append(["helloo","mmy","nnname"])[m
+[38;5;130m  9 [mwb.save([31m"../fuel_details.xlsx"[m)
+[38;5;130m 10 [mws = wb[[31m"sheet1"[m]
+[38;5;130m 11 [m[34m#print(ws.delete_rows(1))[m
+[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;1H[K[25;63H1,1[11CAll[1;5H[?25h[?25l[25;63H2[2;5H[?25h[?25l[25;63H3[3;5H[?25h[?25l[25;63H4[4;5H[?25h[?25l[25;63H5[5;5H[?25h[?25l[25;63H6[6;5H[?25h[?25l[25;63H7[7;5H[?25h[?25l[25;63H8[8;5H[?25h[?25l[25;63H9[9;5H[?25h[?25l[25;65H2[9;6H[?25h[?25l[25;65H3[9;7H[?25h[?25l[25;65H4[9;8H[?25h[?25l[25;65H5[9;9H[?25h[?25l[25;65H6[9;10H[?25h[?25l[25;65H7[9;11H[?25h[?25le[106m([22C)[m[25;65H8[9;12H[?25h[?25l([22C)[25;65H9[9;13H[?25h[?25l[25;65H10[9;14H[?25h[?25l[25;66H1[9;15H[?25h[?25l[25;66H2[9;16H[?25h[?25l[25;63H[K[25;1H:[?2004h[?25hwq[?25l[?2004l"test.py" 11L, 357C written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# vim test.pypython3 test.py 
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py [5Pvim test.py
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;25r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[25;1H"test.py" 11L, 357C
+[97m[41mError detected while processing BufRead Auto commands for "*.py":[m
+[97m[41mE518: Unknown option: set [2;1H½[6n[2;1H  [1;1H[>c]10;?]11;?[m[25;1H
+[32mPress ENTER or type command to continue[?25h[m[1;1H[3L[?25l[1;1H[38;5;130m  1 [m[35mfrom[m openpyxl [35mimport[m Workbook, load_workbook
+[38;5;130m  2 [m[34m#wb = Workbook()[m
+[38;5;130m  3 [m[34m#wb.save("fuel_details.xlsx")[m
+[38;5;130m  4 [mwb = load_workbook([31m"fuel_details.xlsx"[m)
+[38;5;130m  5 [m[34m#wb.create_sheet("sheet1",0)[m
+[38;5;130m  6 [m[34m#wb.create_sheet("sheet2",1)[m
+[38;5;130m  7 [mwb[[31m'sheet1'[m].append([[31m"hello"[m,[31m"my"[m,[31m"name"[m])
+[38;5;130m  8 [m[34m#wb['sheet2'].append(["helloo","mmy","nnname"])[m
+[38;5;130m  9 [mwb.save([31m"../fuel_details.xlsx"[m)
+[38;5;130m 10 [mws = wb[[31m"sheet1"[m]
+[38;5;130m 11 [m[34m#print(ws.delete_rows(1))[m
+[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;1H[K[25;63H1,1[11CAll[1;5H[?25h[?25l[25;63H[K[25;1H:[?2004h[?25hq1[?25l[25;3H[K[25;3H[?25h![?25l[?2004l[25;1H[K[25;1H[?2004l[?1l>[?25h[?1049l[23;0;0t]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# vim test.pypython3 test.py 
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py [5Pvim test.pypython3 test.py 
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
+Traceback (most recent call last):
+  File "test.py", line 4, in <module>
+    wb = load_workbook("fuel_details.xlsx")
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 313, in load_workbook
+    data_only, keep_links)
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 96, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "/usr/lib/python3.6/zipfile.py", line 1090, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'fuel_details.xlsx'
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
+5
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
+4
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
+4
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
+4
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
+4
+Traceback (most recent call last):
+  File "test.py", line 12, in <module>
+    ws.save("../fuel_details.xlsx")
+AttributeError: 'Worksheet' object has no attribute 'save'
+]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# cd /home/zukz1/fuel_details/kee palive 
+]0;root@localhost: /home/zukz1/fuel_details/keepaliveroot@localhost:/home/zukz1/fuel_details/keepalive# [Kssh -R 80:localhost:80 ssh.lo calhost.run > localhost.txt 
+ssh_exchange_identification: read: Connection reset by peer
+]0;root@localhost: /home/zukz1/fuel_details/keepaliveroot@localhost:/home/zukz1/fuel_details/keepalive# [K

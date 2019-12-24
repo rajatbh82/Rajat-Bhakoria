@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+	background-color: grey;
+	padding:0;
+	text-align:center;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=number], input[type=date] {
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px #39CCCC;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 6px 10px;
+  font-size: 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px #39CCCC;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: 100%;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: fit-width;
+}
+
+td, th {
+  border: 1px solid aqua;
+  text-align: center;
+  padding: 1px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+<script>
+	function caladdstock(){
+		p1 = parseFloat(document.getElementById("buyp1").value);
+		p2 = parseFloat(document.getElementById("buyp2").value);
+		p3 = parseFloat(document.getElementById("buyp3").value);
+		buypetrol = p1+p2+p3;
+		document.getElementById("buypetrol").value = buypetrol.toFixed(2);
+		d1 = parseFloat(document.getElementById("buyd1").value);
+		d2 = parseFloat(document.getElementById("buyd2").value);
+		d3 = parseFloat(document.getElementById("buyd3").value);
+		buydiesel = d1+d2+d3;
+		document.getElementById("buydiesel").value = buydiesel.toFixed(2);
+		document.getElementById("buytotal").value = (buypetrol + buydiesel).toFixed(2);
+	}
+	
+	function addstock(){
+		document.getElementById('addstock').style.display='none';
+		document.getElementById('loadingimg').style.display='inline-block';
+		date = document.getElementById("buydate").value;
+		iv = document.getElementById("iv").value;
+		p = document.getElementById("petrolstock").value;
+		pc = document.getElementById("buypetrol").value; 
+		d = document.getElementById("dieselstock").value;
+		dc = document.getElementById("buydiesel").value;
+		t = document.getElementById("buytotal").value;
+		pass = document.getElementById("addstockpass").value;
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				document.getElementById('demo').innerHTML = this.responseText;
+				document.getElementById('loadingimg').style.display='none';
+				fetchdata();
+			}
+		};
+		xhttp.open("GET", "cgi-bin/addstock.py?date="+date+"&invoice="+iv+"&petrol="+p+"&petrolcost="+pc+"&diesel="+d+"&dieselcost="+dc+"&total="+t+"&pass="+pass, true);
+		xhttp.send();
+	}
+	
+	function deletestock(){
+		document.getElementById('deletestock').style.display='none';
+		document.getElementById('loadingimg').style.display='inline-block';
+		pass = document.getElementById("deletestockpass").value;
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				document.getElementById('demo').innerHTML = this.responseText;
+				document.getElementById('loadingimg').style.display='none';
+				fetchdata();
+			}
+		};
+		xhttp.open("GET", "cgi-bin/deletestock.py?&pass="+pass, true);
+		xhttp.send();
+	}
+	
+	function calsale(){
+		p1 = parseFloat(document.getElementById("soldp1").value);
+		p2 = parseFloat(document.getElementById("soldp2").value);
+		p3 = parseFloat(document.getElementById("soldp3").value);
+		soldpetrol = (p1+p2)*p3;
+		document.getElementById("soldpetrol").value = soldpetrol.toFixed(2);
+		d1 = parseFloat(document.getElementById("soldd1").value);
+		d2 = parseFloat(document.getElementById("soldd2").value);
+		d3 = parseFloat(document.getElementById("soldd3").value);
+		solddiesel = (d1+d2)*d3;
+		document.getElementById("solddiesel").value = solddiesel.toFixed(2);
+		document.getElementById("soldtotal").value = (soldpetrol + solddiesel).toFixed(2);
+	}
+	
+	function addsale(){
+		document.getElementById('addsale').style.display='none';
+		document.getElementById('loadingimg').style.display='inline-block';
+		date = document.getElementById("solddate").value;
+		pl = document.getElementById("soldp1").value;
+		pt = document.getElementById("soldp2").value;
+		pr = document.getElementById("soldp3").value;
+		ps = document.getElementById("soldpetrol").value;
+		dl = document.getElementById("soldd1").value;
+		dt = document.getElementById("soldd2").value;
+		dr = document.getElementById("soldd3").value;
+		ds = document.getElementById("solddiesel").value;
+		ts = document.getElementById("soldtotal").value;
+		pass = document.getElementById("addsalepass").value;
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				document.getElementById('demo').innerHTML = this.responseText;
+				document.getElementById('loadingimg').style.display='none';
+				fetchdata();
+			}
+		};
+		xhttp.open("GET", "cgi-bin/addsale.py?date="+date+"&petrolsold="+pl+"&petroltest="+pt+"&petrolrate="+pr+"&petrolsoldprice="+ps+"&dieselsold="+dl+"&dieseltest="+dt+"&dieselrate="+dr+"&dieselsoldprice="+ds+"&total="+ts+"&pass="+pass, true);
+		xhttp.send();
+	}
+	
+	function deletesale(){
+		document.getElementById('deletesale').style.display='none';
+		document.getElementById('loadingimg').style.display='inline-block';
+		pass = document.getElementById("deletesalepass").value;
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				document.getElementById('demo').innerHTML = this.responseText;
+				document.getElementById('loadingimg').style.display='none';
+				fetchdata();
+			}
+		};
+		xhttp.open("GET", "cgi-bin/deletesale.py?&pass="+pass, true);
+		xhttp.send();
+	}
+	
+	function fetchdata(){
+		document.getElementById('loadingimg').style.display='inline-block';
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				document.getElementById('fetchdata').innerHTML = this.responseText;
+				document.getElementById('loadingimg').style.display='none';
+			}
+		};
+		xhttp.open("GET", "cgi-bin/fetchdata.py", true);
+		xhttp.send();
+	}
+	
+	function constructdata(){
+		document.getElementById('download').style.display='none';
+		document.getElementById('downloadlink').innerHTML = "Creating link please wait";
+		document.getElementById('loadingimg').style.display='inline-block';
+		wmy =  document.getElementById('downloadtype').value;
+		date =  document.getElementById('downloaddate').value;
+		pass =  document.getElementById('downloadpass').value;
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				document.getElementById('downloadlink').innerHTML = this.responseText;
+				document.getElementById('loadingimg').style.display='none';
+			}
+		};
+		xhttp.open("GET", "cgi-bin/constructdata.py?wmy="+wmy+"&date="+date+"&pass="+pass, true);
+		xhttp.send();
+	}
+	
+	
+
+</script>
+</head>
+<body onload="fetchdata()" >
+<h3 style="float:left;color:maroon;text-align:center;margin:0;display:inline-block" id="demo" ></h3>
+<a href="" ><button style="background-color:olive;position:fixed;top:0;right:2%;width:10%;border-radius:10%;back">Reload</button></a>
+<img id="loadingimg" src="loading.gif" width="10%" style="display:none;position:fixed;bottom:45%;left:45%">
+<hr width="100%"><span id="fetchdata" ></span><hr width="100%">
+<button style="width:50%" onclick="document.getElementById('addstock').style.display='block'">AddStock</button>
+<button style="float:right;width:50%;background-color:orange" onclick="document.getElementById('deletestock').style.display='block'">DeleteStock</button>
+<button style="width:50%" onclick="document.getElementById('addsale').style.display='block'">Sale</button>
+<button style="float:right;width:50%;background-color:orange" onclick="document.getElementById('deletesale').style.display='block'">DeleteSale</button><hr>
+<h3 id="downloadlink"></h3>
+<button style="width:20%;background-color:lime" onclick="document.getElementById('download').style.display='block'">Download</button>
+<div id="addstock" class="modal">
+  
+  <form class="modal-content animate" action="javascript:addstock();" method="post">
+		<div class="imgcontainer">
+	  	   <span onclick="document.getElementById('addstock').style.display='none'" class="close" title="Close Modal">&times;</span>
+   	</div>
+    <div class="container">
+    	<label for="uname"><b>Date</b></label>
+      <input id="buydate" type="date" required>
+      <label for="uname"><b>Petrol</b></label>
+      <input id="buyp1" type="number" step="any" placeholder="Amount1" required>
+      <input id="buyp2" type="number" step="any" placeholder="Amount2" required>
+      <input id="buyp3" type="number" step="any" placeholder="Amount3" required>
+      <label for="uname"><b>Diesel</b></label>
+      <input id="buyd1" type="number" step="any" placeholder="Amount1" required>
+      <input id="buyd2" type="number" step="any" placeholder="Amount2" required>
+      <input id="buyd3" type="number" step="any" placeholder="Amount3" required>
+      <label for="uname"><b>Invoice Number</b></label>
+      <input id="iv" type="number" placeholder="Invoice Number" required>
+      <button type="button" onclick="caladdstock()">Calculate</button>
+      <label for="uname"><b>Petrol Cost</b></label>
+      <input style="color:red" id="buypetrol" type="number" readonly required>
+      <label for="uname"><b>Diesel Cost</b></label>
+      <input style="color:red" id="buydiesel" type="number" readonly required>
+      <label for="uname"><b>Total Cost</b></label>
+      <input style="color:red" id="buytotal" type="number" readonly required>
+      <label for="uname"><b>Petrol Bought</b></label>
+      <input id="petrolstock" type="number" step="any" placeholder="Petrol in liters" required>
+      <label for="uname"><b>Diesel Bought</b></label>
+      <input id="dieselstock" type="number" step="any" placeholder="Diesel in liters" required>
+      <label for="uname"><b>PassCode</b></label>
+      <input id="addstockpass" type="number" placeholder="Enter PassCode" required>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+    	<button type="submit" >Submit</button>
+      <button type="button" onclick="document.getElementById('addstock').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
+
+<div id="deletestock" class="modal">
+  
+  <form class="modal-content animate" action="javascript:deletestock();" method="post">
+		<div class="imgcontainer">
+	  	   <span onclick="document.getElementById('deletestock').style.display='none'" class="close" title="Close Modal">&times;</span>
+   	</div>
+    <div class="container">
+      <label for="uname"><b>PassCode</b></label>
+      <input id="deletestockpass" type="number" placeholder="Enter PassCode" required>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+    	<button type="submit" >Submit</button>
+      <button type="button" onclick="document.getElementById('deletestock').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
+
+<div id="addsale" class="modal">
+  
+  <form class="modal-content animate" action="javascript:addsale();" method="post">
+		<div class="imgcontainer">
+   	   <span onclick="document.getElementById('addsale').style.display='none'" class="close" title="Close Modal">&times;</span>
+    	</div>
+    <div class="container">
+    	<label for="uname"><b>Date</b></label>
+      <input id="solddate" type="date" required>
+      <label for="uname"><b>Petrol</b></label>
+      <input id="soldp1" type="number" step="any" placeholder="Petrol sold in liters">
+      <input id="soldp2" type="number" step="any" placeholder="Petrol for testing in liters">
+      <input id="soldp3" type="number" step="any" placeholder="Rate of pertol">
+      <label for="uname"><b>Diesel</b></label>
+      <input id="soldd1" type="number" step="any" placeholder="Diesel sold in liters">
+      <input id="soldd2" type="number" step="any" placeholder="Diesel for testing in liters">
+      <input id="soldd3" type="number" step="any" placeholder="Rate of Diesel">
+      <button type="button" onclick="calsale()">Calculate</button>
+      <label for="uname"><b>Sold amount of petrol</b></label>
+      <input style="color:red" id="soldpetrol" type="number" readonly required>
+      <label for="uname"><b>Sold amount of diesel</b></label>
+      <input style="color:red" id="solddiesel" type="number" readonly required>
+      <label for="uname"><b>Total amount sold</b></label>
+      <input style="color:red" id="soldtotal" type="number" readonly required>
+      <label for="uname"><b>PassCode</b></label>
+      <input id="addsalepass" type="number" placeholder="Enter PassCode" required>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+    	<button type="submit" >Submit</button>
+      <button type="button" onclick="document.getElementById('addsale').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
+
+<div id="deletesale" class="modal">
+  
+  <form class="modal-content animate" action="javascript:deletesale();" method="post">
+		<div class="imgcontainer">
+	  	   <span onclick="document.getElementById('deletesale').style.display='none'" class="close" title="Close Modal">&times;</span>
+   	</div>
+    <div class="container">
+      <label for="uname"><b>PassCode</b></label>
+      <input id="deletesalepass" type="number" placeholder="Enter PassCode" required>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+    	<button type="submit" >Submit</button>
+      <button type="button" onclick="document.getElementById('deletesale').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
+
+<div id="download" class="modal">
+  
+  <form class="modal-content animate" action="javascript:constructdata();" method="post">
+		<div class="imgcontainer">
+	  	   <span onclick="document.getElementById('download').style.display='none'" class="close" title="Close Modal">&times;</span>
+   	</div>
+    <div class="container">
+    	<label for="uname"><b>Week_Month_Year</b></label>
+      <select id="downloadtype" >
+      	<option value="week">Week</option>
+      	<option value="month">Month</option>
+      	<option value="year">Year</option>
+      </select>
+    	<label for="uname"><b>Date</b></label>
+      <input id="downloaddate" type="date" required>
+      <label for="uname"><b>PassCode</b></label>
+      <input id="downloadpass" type="number" placeholder="Enter PassCode" required>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+    	<button type="submit" >Submit</button>
+      <button type="button" onclick="document.getElementById('download').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
+<!--
+<h1 style="color:red" ><b>PETROL</b><hr></h1>
+<h2>Petrol Rate</h2>
+<input id="pr" type="number" >
+<h2>Petrol in liters</h2>
+<input id="pl" type="number" >
+<h1 style="color:red" ><b>Diesel</b><hr></h1>
+<h2>Diesel Rate</h2>
+<input id="dr" type="number" >
+<h2>Diesel in liters</h2>
+<input id="dl" type="number" >
+<h1 style="color:red" ><b>Invoice Number</b><hr></h1>
+<input id="iv" type="number" >
+<button onclick="calculate()">Calculate</button>
+<button onclick="document.getElementById('id01').style.display='block'">Submit</button>
+-->
+<div id="cal" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+  
+    <div class="container">
+      <label for="uname"><b>Petrol</b></label>
+      <input id="cp" type="text" readonly>
+      <label for="psw"><b>Diesel</b></label>
+      <input id="cd" type="text" readonly>
+      <button type="submit">Login</button>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('cal').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
+
