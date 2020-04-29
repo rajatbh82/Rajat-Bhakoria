@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 print()
 
-password = "9826717511"
+password = "2870"
 import cgi
 import cgitb
 cgitb.enable()
@@ -34,6 +34,7 @@ if passcode == password:
 		os.mkdir("data")
 		os.system("echo 0 > data/petrol.txt")
 		os.system("echo 0 > data/diesel.txt")
+		os.system("echo 0 > data/locker.txt")
 	if os.path.exists("data/"+dt[:4]) == True:
 		if os.path.exists("data/"+dt[:4]+"/"+dt[5:7]) == True:
 			if os.path.exists("data/"+dt[:4]+"/"+dt[5:7]+"/"+week) == True:
@@ -56,8 +57,10 @@ if passcode == password:
 				wb = Workbook()
 				wb.create_sheet("addstock",0)
 				wb.create_sheet("addsale",1)
+				wb.create_sheet("addcashhand",2)
 				wb['addstock'].append(["Date","Invoice","Petrol in liters","Petrol cost","Diesel in liters","Diesel cost","Total cost"])
 				wb['addsale'].append(["Date","Petrol in liters","Petrol for testing","Petrol Rate","Petrol selling price","Diesel in liters","Diesel for testing","Diesel Rate","Diesel selling price","Total cost"])
+				wb['addcashhand'].append(["Date","Sold Amount","PhonePe","PNB CreditCard","Fino Payment","Smart Card","Account Payment","Expense Amount","Udhar Amount","Total Amount","Cash Hand","Daily Deposit","In Locker"])
 				wb['addstock'].append([dt,iv,p,pc,d,dc,t])
 				wb.save("data/"+dt[:4]+"/"+dt[5:7]+"/"+week+"/data.xlsx")
 		else:
@@ -67,8 +70,10 @@ if passcode == password:
 			wb = Workbook()
 			wb.create_sheet("addstock",0)
 			wb.create_sheet("addsale",1)
+			wb.create_sheet("addcashhand",2)
 			wb['addstock'].append(["Date","Invoice","Petrol in liters","Petrol cost","Diesel in liters","Diesel cost","Total cost"])
 			wb['addsale'].append(["Date","Petrol in liters","Petrol for testing","Petrol Rate","Petrol selling price","Diesel in liters","Diesel for testing","Diesel Rate","Diesel selling price","Total cost"])
+			wb['addcashhand'].append(["Date","Sold Amount","PhonePe","PNB CreditCard","Fino Payment","Smart Card","Account Payment","Expense Amount","Udhar Amount","Total Amount","Cash Hand","Daily Deposit","In Locker"])
 			wb['addstock'].append([dt,iv,p,pc,d,dc,t])
 			wb.save("data/"+dt[:4]+"/"+dt[5:7]+"/data.xlsx")
 			
@@ -78,8 +83,10 @@ if passcode == password:
 			wb = Workbook()
 			wb.create_sheet("addstock",0)
 			wb.create_sheet("addsale",1)
+			wb.create_sheet("addcashhand",2)
 			wb['addstock'].append(["Date","Invoice","Petrol in liters","Petrol cost","Diesel in liters","Diesel cost","Total cost"])
 			wb['addsale'].append(["Date","Petrol in liters","Petrol for testing","Petrol Rate","Petrol selling price","Diesel in liters","Diesel for testing","Diesel Rate","Diesel selling price","Total cost"])
+			wb['addcashhand'].append(["Date","Sold Amount","PhonePe","PNB CreditCard","Fino Payment","Smart Card","Account Payment","Expense Amount","Udhar Amount","Total Amount","Cash Hand","Daily Deposit","In Locker"])
 			wb['addstock'].append([dt,iv,p,pc,d,dc,t])
 			wb.save("data/"+dt[:4]+"/"+dt[5:7]+"/"+week+"/data.xlsx")
 	else:
@@ -89,8 +96,10 @@ if passcode == password:
 		wb = Workbook()
 		wb.create_sheet("addstock",0)
 		wb.create_sheet("addsale",1)
+		wb.create_sheet("addcashhand",2)
 		wb['addstock'].append(["Date","Invoice","Petrol in liters","Petrol cost","Diesel in liters","Diesel cost","Total cost"])
 		wb['addsale'].append(["Date","Petrol in liters","Petrol for testing","Petrol Rate","Petrol selling price","Diesel in liters","Diesel for testing","Diesel Rate","Diesel selling price","Total cost"])
+		wb['addcashhand'].append(["Date","Sold Amount","PhonePe","PNB CreditCard","Fino Payment","Smart Card","Account Payment","Expense Amount","Udhar Amount","Total Amount","Cash Hand","Daily Deposit","In Locker"])
 		wb['addstock'].append([dt,iv,p,pc,d,dc,t])
 		wb.save("data/"+dt[:4]+"/data.xlsx")
 		
@@ -100,8 +109,10 @@ if passcode == password:
 		wb = Workbook()
 		wb.create_sheet("addstock",0)
 		wb.create_sheet("addsale",1)
+		wb.create_sheet("addcashhand",2)
 		wb['addstock'].append(["Date","Invoice","Petrol in liters","Petrol cost","Diesel in liters","Diesel cost","Total cost"])
 		wb['addsale'].append(["Date","Petrol in liters","Petrol for testing","Petrol Rate","Petrol selling price","Diesel in liters","Diesel for testing","Diesel Rate","Diesel selling price","Total cost"])
+		wb['addcashhand'].append(["Date","Sold Amount","PhonePe","PNB CreditCard","Fino Payment","Smart Card","Account Payment","Expense Amount","Udhar Amount","Total Amount","Cash Hand","Daily Deposit","In Locker"])
 		wb['addstock'].append([dt,iv,p,pc,d,dc,t])
 		wb.save("data/"+dt[:4]+"/"+dt[5:7]+"/data.xlsx")
 		
@@ -111,8 +122,10 @@ if passcode == password:
 		wb = Workbook()
 		wb.create_sheet("addstock",0)
 		wb.create_sheet("addsale",1)
+		wb.create_sheet("addcashhand",2)
 		wb['addstock'].append(["Date","Invoice","Petrol in liters","Petrol cost","Diesel in liters","Diesel cost","Total cost"])
 		wb['addsale'].append(["Date","Petrol in liters","Petrol for testing","Petrol Rate","Petrol selling price","Diesel in liters","Diesel for testing","Diesel Rate","Diesel selling price","Total cost"])
+		wb['addcashhand'].append(["Date","Sold Amount","PhonePe","PNB CreditCard","Fino Payment","Smart Card","Account Payment","Expense Amount","Udhar Amount","Total Amount","Cash Hand","Daily Deposit","In Locker"])
 		wb['addstock'].append([dt,iv,p,pc,d,dc,t])
 		wb.save("data/"+dt[:4]+"/"+dt[5:7]+"/"+week+"/data.xlsx")
 	

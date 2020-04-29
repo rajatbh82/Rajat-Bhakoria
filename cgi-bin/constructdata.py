@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 print()
 
-password = "9826717511"
+password = "2870"
 import cgi
 import cgitb
 cgitb.enable()
@@ -34,7 +34,7 @@ if passcode == password:
 				wb.remove(wb["report"])
 			except:
 				print()
-			wb.create_sheet("report",2)
+			wb.create_sheet("report",3)
 			wb['report'].append(["Date","Invoice Number","Petrol Bought","Petrol Cost Price","Diesel Bought","Diesel Cost Price","Total Cost Price","Petrol in Stock","Petrol Sold","Petrol for Testing","Petrol Rate","Petrol Selling Price","Diesel in Stock","Diesel Sold","Diesel for Testing","Diesel Rate","Diesel Selling Price","Total Selling Price"])
 			
 			petrol = open("data/"+dt[:4]+"/"+dt[5:7]+"/"+week+"/openpetrol.txt")
@@ -58,8 +58,8 @@ if passcode == password:
 					lst.append(diesel)
 					for j in range(6,addsale.max_column+1):
 						lst.append(addsale.cell(row=i,column=j).value)
-					petrol = str(float(petrol) + float(addstock.cell(row=count,column=3).value) - float(addsale.cell(row=i,column=2).value))
-					diesel = str(float(diesel) + float(addstock.cell(row=count,column=5).value) - float(addsale.cell(row=i,column=6).value))
+					petrol = str(float(petrol) + float(addstock.cell(row=count,column=3).value) - float(addsale.cell(row=i,column=2).value) - float(addsale.cell(row=i,column=3).value))
+					diesel = str(float(diesel) + float(addstock.cell(row=count,column=5).value) - float(addsale.cell(row=i,column=6).value) - float(addsale.cell(row=i,column=7).value))
 					count = count + 1
 				else:
 					lst.extend(["","","","","",""])
@@ -69,8 +69,8 @@ if passcode == password:
 					lst.append(diesel)
 					for j in range(6,addsale.max_column+1):
 						lst.append(addsale.cell(row=i,column=j).value)
-					petrol = str(float(petrol) - float(addsale.cell(row=i,column=2).value))
-					diesel = str(float(diesel) - float(addsale.cell(row=i,column=6).value))
+					petrol = str(float(petrol) - float(addsale.cell(row=i,column=2).value) - float(addsale.cell(row=i,column=3).value))
+					diesel = str(float(diesel) - float(addsale.cell(row=i,column=6).value) - float(addsale.cell(row=i,column=7).value))
 				wb["report"].append(lst)
 			wb.save("data/"+dt[:4]+"/"+dt[5:7]+"/"+week+"/data.xlsx")
 			print("<a href=\"data/"+dt[:4]+"/"+dt[5:7]+"/"+week+"/data.xlsx\" download>Download</a><br><table style='font-size:10px'><tr>")
@@ -96,7 +96,7 @@ if passcode == password:
 				wb.remove(wb["report"])
 			except:
 				print()
-			wb.create_sheet("report",2)
+			wb.create_sheet("report",3)
 			wb['report'].append(["Date","Invoice Number","Petrol Bought","Petrol Cost Price","Diesel Bought","Diesel Cost Price","Total Cost Price","Petrol in Stock","Petrol Sold","Petrol for Testing","Petrol Rate","Petrol Selling Price","Diesel in Stock","Diesel Sold","Diesel for Testing","Diesel Rate","Diesel Selling Price","Total Selling Price"])
 			
 			petrol = open("data/"+dt[:4]+"/"+dt[5:7]+"/openpetrol.txt")
@@ -135,7 +135,7 @@ if passcode == password:
 					diesel = str(float(diesel) - float(addsale.cell(row=i,column=6).value))
 				wb["report"].append(lst)
 			wb.save("data/"+dt[:4]+"/"+dt[5:7]+"/data.xlsx")
-			print("<a href=\"data/"+dt[:4]+"/"+dt[5:7]+"/data.xlsx\" download>Download</a><br><table><tr>")
+			print("<a href=\"data/"+dt[:4]+"/"+dt[5:7]+"/data.xlsx\" download>Download</a><br><table style='font-size:10px'><tr>")
 			ws = wb["report"]
 			for i in range(1,ws.max_column+1):
 				print("<th>"+ws.cell(row=1,column=i).value+"</th>")
@@ -158,7 +158,7 @@ if passcode == password:
 				wb.remove(wb["report"])
 			except:
 				print()
-			wb.create_sheet("report",2)
+			wb.create_sheet("report",3)
 			wb['report'].append(["Date","Invoice Number","Petrol Bought","Petrol Cost Price","Diesel Bought","Diesel Cost Price","Total Cost Price","Petrol in Stock","Petrol Sold","Petrol for Testing","Petrol Rate","Petrol Selling Price","Diesel in Stock","Diesel Sold","Diesel for Testing","Diesel Rate","Diesel Selling Price","Total Selling Price"])
 			
 			petrol = open("data/"+dt[:4]+"/openpetrol.txt")
@@ -197,7 +197,7 @@ if passcode == password:
 					diesel = str(float(diesel) - float(addsale.cell(row=i,column=6).value))
 				wb["report"].append(lst)
 			wb.save("data/"+dt[:4]+"/data.xlsx")
-			print("<a href=\"data/"+dt[:4]+"/data.xlsx\" download>Download</a><br><table><tr>")
+			print("<a href=\"data/"+dt[:4]+"/data.xlsx\" download>Download</a><br><table style='font-size:10px'><tr>")
 			ws = wb["report"]
 			for i in range(1,ws.max_column+1):
 				print("<th>"+ws.cell(row=1,column=i).value+"</th>")

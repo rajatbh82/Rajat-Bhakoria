@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 print()
 
-password = "9826717511"
+password = "2870"
 import cgi
 import cgitb
 cgitb.enable()

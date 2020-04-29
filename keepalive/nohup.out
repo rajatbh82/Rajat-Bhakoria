@@ -1,0 +1,6 @@
+
+(xfce4-terminal:10254): dbind-WARNING **: 04:21:34.718: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+(xfce4-terminal:10291): dbind-WARNING **: 04:21:42.192: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined

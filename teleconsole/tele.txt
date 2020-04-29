@@ -2,144 +2,542 @@ Starting local SSH server on localhost...
 Requesting a disposable SSH proxy on as.teleconsole.com for zukz1...
 Checking status of the SSH tunnel...
 
-Your Teleconsole ID: [1mas27c05a5187c9cc9856dfbc30c248589c06ce2c0e[0m
-WebUI for this session: https://as.teleconsole.com/s/27c05a5187c9cc9856dfbc30c248589c06ce2c0e
+Your Teleconsole ID: [1mas6cde26233c06148b3487a1f36fdb707b5369ee97[0m
+WebUI for this session: https://as.teleconsole.com/s/6cde26233c06148b3487a1f36fdb707b5369ee97
 To stop broadcasting, exit current shell by typing 'exit' or closing the window.
 $ [8;25;80tls
 Desktop    Downloads  Pictures	Templates  fuel_details
-Documents  Music      Public	Videos	   test.py
-$ sudos    su
-]0;root@localhost: /home/zukz1root@localhost:/home/zukz1# cd fuel_details/
-]0;root@localhost: /home/zukz1/fuel_detailsroot@localhost:/home/zukz1/fuel_details# ls
-[0m[34;42mcgi-bin[0m    [34;42mdata[0m               [01;32mindex.html[0m  [01;32mlocalhost.txt[0m  [34;42mteleconsole[0m  [01;32mtest.txt[0m
-[01;32mcodes.txt[0m  [01;32mfuel_details.xlsx[0m  [34;42mkeepalive[0m   [01;32mserver.py[0m      [01;32mtest.py[0m
-]0;root@localhost: /home/zukz1/fuel_detailsroot@localhost:/home/zukz1/fuel_details# cd cgi-bin/
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# ls
-[0m[01;32maddstock.py[0m  [01;32mfuel_details.xlsx[0m  [01;32mopen.py[0m  [01;32mterminal.py[0m  [01;32mtest.py[0m
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# vim test.py 
-[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;25r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[25;1H"test.py" 11L, 355C
-[97m[41mError detected while processing BufRead Auto commands for "*.py":[m
-[97m[41mE518: Unknown option: set [2;1H½[6n[2;1H  [1;1H[>c]10;?]11;?[m[25;1H
-[32mPress ENTER or type command to continue[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[m[1;1H[3L[?25l[1;1H[38;5;130m  1 [m[35mfrom[m openpyxl [35mimport[m Workbook, load_workbook
-[38;5;130m  2 [m[34m#wb = Workbook()[m
-[38;5;130m  3 [m[34m#wb.save("fuel_details.xlsx")[m
-[38;5;130m  4 [mwb = load_workbook([31m"fuel_details.xlsx"[m)
-[38;5;130m  5 [m[34m#wb.create_sheet("sheet1",0)[m
-[38;5;130m  6 [m[34m#wb.create_sheet("sheet2",1)[m
-[38;5;130m  7 [m[34m#wb['sheet1'].append(["hello","my","name"])[m
-[38;5;130m  8 [m[34m#wb['sheet2'].append(["helloo","mmy","nnname"])[m
-[38;5;130m  9 [m[34m#wb.save("fuel_details.xlsx")[m
-[38;5;130m 10 [mws = wb.Worksheet()
-[38;5;130m 11 [m[36mprint[m(wb.delete_row())
-[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;1H[K[25;63H1,1[11CAll[1;5H[?25h[?25l[25;63H2[2;5H[?25h[?25l[25;63H3[3;5H[?25h[?25l[25;63H4[4;5H[?25h[?25l[25;63H5[5;5H[?25h[?25l[25;63H6[6;5H[?25h[?25l[25;63H7[7;5H[?25h[?25l[25;63H8[8;5H[?25h[?25l[25;63H9[9;5H[?25h[?25l[25;63H8,47[8;51H[?25h[?25l[25;1H[1m-- INSERT --[m[25;63H[K[25;63H8,47[10CAll[8;51H[?25h[?25l[25;66H8[8;52H[?25h[?25l[25;63H9,30[9;34H[?25h[?25l[10;22H[106m()[m[25;63H10,20[10;24H[?25h[?25l()[11;10H[106m([15C)[m[25;64H1,23[11;27H[?25h[?25l[10;22H[106m()[m[11;10H([15C)[25;64H0,20[10;24H[?25h[?25l[25;66H19[10;23H[?25h[?25l[25;67H8[10;22H[?25h[?25l()[25;67H7[10;21H[?25h[?25l[25;67H6[10;20H[?25h[?25l[25;67H5[10;19H[?25h[?25l[25;67H4[10;18H[?25h[?25l[25;67H3[10;17H[?25h[?25l[25;67H2[10;16H[?25h[?25l[25;67H1[10;15H[?25h[?25l[25;67H0[10;14H[?25h[?25l[25;66H9 [10;13H[?25h[?25l[25;66H8[10;12H[?25h[?25l[25;66H9[10;13H[?25h[?25l[25;66H10[10;14H[?25h[?25l[25;67H1[10;15H[?25h[?25l[25;67H2[10;16H[?25h[?25l[25;67H4[10;18H[?25h[?25l[25;67H5[10;19H[?25h[?25l[25;67H6[10;20H[?25h[?25l[25;67H7[10;21H[?25h[?25lt[106m()[m[25;67H8[10;22H[?25h[?25l[25;67H9[10;23H[?25h[?25l[25;66H20[10;24H[?25h[?25l[10;23H[K[10;22H([25;66H19[10;23H[?25h[?25l[10;22H[K[25;67H8[10;22H[?25h[?25l[10;21H[K[25;67H7[10;21H[?25h[?25l[10;20H[K[25;67H6[10;20H[?25h[?25l[10;18H[K[25;67H4[10;18H[?25h[?25l[10;17H[K[25;67H3[10;17H[?25h[?25l[10;16H[K[25;67H2[10;16H[?25h[?25l[10;15H[K[25;67H1[10;15H[?25h[?25l[10;14H[K[25;67H0[10;14H[?25h[?25l[10;13H[K[25;66H9 [10;13H[?25h[?25l[10;12H[K[25;66H8[10;12H[?25h[?25l[[25;66H9[10;13H[?25h[?25l][106m[][m[25;66H10[10;14H[?25h[?25l[25;66H9 [10;13H[?25h[?25l[31m[106m"[m[31m][11;5Hprint(wb.delete_row())[m[10;12H[[31m"[m[25;66H10[10;14H[?25h[?25l[31m"[m][11;5H[36mprint[m(wb.delete_row())[10;12H[106m[[2C][m[25;67H1[10;15H[?25h[?25l[[2C][25;67H0[10;14H[?25h[?25l[31ms"[m][25;67H1[10;15H[?25h[?25l[31mh"[m][25;67H2[10;16H[?25h[?25l[31me"[m][25;67H3[10;17H[?25h[?25l[31me"[m][25;67H4[10;18H[?25h[?25l[31mt"[m][25;67H5[10;19H[?25h[?25l[31m1"[m][25;67H6[10;20H[?25h[?25l[10;12H[106m[[8C][m[25;67H7[10;21H[?25h[?25l[25;67H8[10;22H[?25h[?25l.[10;12H[[8C][25;67H9[10;23H[?25h[?25l[10;22H[K[10;12H[106m[[8C][m[25;67H8[10;22H[?25h[?25l[10;12H[[8C][25;64H1[11;22H[?25h[?25l[25;67H7[11;21H[?25h[?25l[25;67H6[11;20H[?25h[?25l[25;67H5[11;19H[?25h[?25l[25;67H4[11;18H[?25h[?25l[25;67H3[11;17H[?25h[?25l[25;67H2[11;16H[?25h[?25l[25;67H1[11;15H[?25h[?25l[25;67H0[11;14H[?25h[?25l[25;66H9 [11;13H[?25h[?25l.delete_row()[11;26H[K[25;66H8[11;12H[?25h[?25ls.delete_row())[25;66H9[11;13H[?25h[?25l[25;66H10[11;14H[?25h[?25l[25;67H1[11;15H[?25h[?25l[25;67H2[11;16H[?25h[?25l[25;67H3[11;17H[?25h[?25l[25;67H4[11;18H[?25h[?25l[25;67H5[11;19H[?25h[?25l[25;67H6[11;20H[?25h[?25l[25;67H7[11;21H[?25h[?25l[25;67H8[11;22H[?25h[?25l[25;67H9[11;23H[?25h[?25lw[106m()[m[25;66H20[11;24H[?25h[?25l[106ms([m))s[1C[106m)[m[25;67H1[11;25H[?25h[?25l[25;67H2[11;26H[?25h[?25l[25;67H1[11;25H[?25h[?25l[25;4H[1mREPLACE --[m[25;63H[K[25;63H11,21[9CAll[11;25H[?25h[?25l[25;4H[1mINSERTE -[m[25;13H[K[25;63H11,21[9CAll[11;25H[?25h[?25l()[25;67H0[11;24H[?25h[?25ls[106m()[m[25;67H1[11;25H[?25h[?25l[25;67H2[11;26H[?25h[?25l[11;10H[106m([m[14C()[106m)[m[25;67H3[11;27H[?25h[?25l[25;67H4[11;28H[?25h[?25l[25;4H[1mREPLACE --[m[25;63H[K[25;63H11,24[9CAll[11;28H[?25h[?25l[25;4H[1mINSERTE -[m[25;13H[K[25;63H11,24[9CAll[11;28H[?25h[?25l[25;67H3[11;27H[?25h[?25l[11;10H([14C[106m()[m)[25;67H2[11;26H[?25h[?25l[106m [m  ))   [106m)[m[25;67H5[11;29H[?25h[?25l))[11;29H[K[11;26H[106m)[m[25;67H2[11;26H[?25h[?25l[106m)[m[11;27H[K[11;10H[106m([m[15C)[25;67H1[11;25H[?25h[?25l[106m([m))[11;10H([15C[106m)[m[25;67H2[11;26H[?25h[?25l[31m[106m1[m))[31m1[m[106m)[m[25;67H3[11;27H[?25h[?25l[11;10H[106m([m[14C([1C)[106m)[m[25;67H4[11;28H[?25h[?25l[25;67H5[11;29H[?25h[25;1H[K[11;28H[?25l[25;63H11,24[9CAll[11;28H[?25h[?25l[25;63H[K[25;1H:[?2004hwq[?2004l"test.py" 11L, 355C written
-[?2004l[?1l>[?25h[?1049l[23;0;0t]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# vim test.py 
-[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;25r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[25;1H"test.py" 11L, 355C
-[97m[41mError detected while processing BufRead Auto commands for "*.py":[m
-[97m[41mE518: Unknown option: set [2;1H½[6n[2;1H  [1;1H[>c]10;?]11;?[m[25;1H
-[32mPress ENTER or type command to continue[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[m[1;1H[3L[?25l[1;1H[38;5;130m  1 [m[35mfrom[m openpyxl [35mimport[m Workbook, load_workbook
-[38;5;130m  2 [m[34m#wb = Workbook()[m
-[38;5;130m  3 [m[34m#wb.save("fuel_details.xlsx")[m
-[38;5;130m  4 [mwb = load_workbook([31m"fuel_details.xlsx"[m)
-[38;5;130m  5 [m[34m#wb.create_sheet("sheet1",0)[m
-[38;5;130m  6 [m[34m#wb.create_sheet("sheet2",1)[m
-[38;5;130m  7 [m[34m#wb['sheet1'].append(["hello","my","name"])[m
-[38;5;130m  8 [m[34m#wb['sheet2'].append(["helloo","mmy","nnname"])[m
-[38;5;130m  9 [m[34m#wb.save("fuel_details.xlsx")[m
-[38;5;130m 10 [mws = wb[[31m"sheet1"[m]
-[38;5;130m 11 [m[36mprint[m(ws.delete_rows([31m1[m))
-[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;1H[K[25;63H1,1[11CAll[1;5H[?25h[?25l[25;63H2[2;5H[?25h[?25l[25;63H3[3;5H[?25h[?25l[25;63H4[4;5H[?25h[?25l[25;63H5[5;5H[?25h[?25l[25;63H[K[25;1H:[?2004h[?25hwq[?25l[?2004l"test.py" 11L, 355C written
-[?2004l[?1l>[?25h[?1049l[23;0;0t]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 te` 
-terminal.py  test.py      
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
-None
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py [4Pvim test.py  
-[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;25r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[25;1H"test.py" 11L, 355C
-[97m[41mError detected while processing BufRead Auto commands for "*.py":[m
-[97m[41mE518: Unknown option: set [2;1H½[6n[2;1H  [1;1H[>c]10;?]11;?[m[25;1H
-[32mPress ENTER or type command to continue[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[m[1;1H[3L[?25l[1;1H[38;5;130m  1 [m[35mfrom[m openpyxl [35mimport[m Workbook, load_workbook
-[38;5;130m  2 [m[34m#wb = Workbook()[m
-[38;5;130m  3 [m[34m#wb.save("fuel_details.xlsx")[m
-[38;5;130m  4 [mwb = load_workbook([31m"fuel_details.xlsx"[m)
-[38;5;130m  5 [m[34m#wb.create_sheet("sheet1",0)[m
-[38;5;130m  6 [m[34m#wb.create_sheet("sheet2",1)[m
-[38;5;130m  7 [m[34m#wb['sheet1'].append(["hello","my","name"])[m
-[38;5;130m  8 [m[34m#wb['sheet2'].append(["helloo","mmy","nnname"])[m
-[38;5;130m  9 [m[34m#wb.save("fuel_details.xlsx")[m
-[38;5;130m 10 [mws = wb[[31m"sheet1"[m]
-[38;5;130m 11 [m[36mprint[m(ws.delete_rows([31m1[m))
-[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;1H[K[25;63H1,1[11CAll[1;5H[?25h[?25l[25;63H2[2;5H[?25h[?25l[25;63H3[3;5H[?25h[?25l[25;63H4[4;5H[?25h[?25l[25;63H5[5;5H[?25h[?25l[25;63H6[6;5H[?25h[?25l[25;63H7[7;5H[?25h[?25l[25;63H8[8;5H[?25h[?25l[25;63H9[9;5H[?25h[?25l[25;63H10,1[10;5H[?25h[?25l[25;64H1[11;5H[?25h[?25l[25;66H2[11;6H[?25h[?25l[25;66H3[11;7H[?25h[?25l[25;66H4[11;8H[?25h[?25l[25;66H5[11;9H[?25h[?25l[1C[106m([17C)[m[25;66H6[11;10H[?25h[?25l([17C)[25;66H7[11;11H[?25h[?25l[25;66H8[11;12H[?25h[?25l[25;66H9[11;13H[?25h[?25l[25;66H10[11;14H[?25h[?25l[25;64H0[10;14H[?25h[?25l[25;63H9,10 [9;14H[?25h[?25l[25;66H1[9;15H[?25h[?25l[25;63H8[8;15H[?25h[?25l[25;66H0[8;14H[?25h[?25l[25;65H9 [8;13H[?25h[?25l[25;65H8[8;12H[?25h[?25l[25;65H7[8;11H[?25h[?25l[25;65H6[8;10H[?25h[?25l[25;65H5[8;9H[?25h[?25l[25;65H4[8;8H[?25h[?25l[25;65H3[8;7H[?25h[?25l[25;65H2[8;6H[?25h[?25l[25;63H7[7;6H[?25h[?25l[25;1H[1m-- INSERT --[m[25;63H[K[25;63H7,2[11CAll[7;6H[?25h[?25lwb[[31m'sheet1'[m].append([[31m"hello"[m,[31m"my"[m,[31m"name"[m])[7;47H[K[25;65H1[7;5H[?25h[?25l[25;63H8[8;5H[?25h[?25l[25;63H9[9;5H[?25h[?25l[25;63H10,1[10;5H[?25h[?25l[25;64H1[11;5H[?25h[?25l[25;64H0[10;5H[?25h[?25l[25;64H1[11;5H[?25h[?25l[34m#print(ws.delete_rows(1))[m[25;66H2[11;6H[?25h[?25l[25;64H0[10;6H[?25h[?25l[25;63H9,2 [9;6H[?25h[?25lwb.save([31m"fuel_details.xlsx"[m)[9;33H[K[25;65H1[9;5H[?25h[?25l[25;65H2[9;6H[?25h[?25l[25;65H3[9;7H[?25h[?25l[25;65H4[9;8H[?25h[?25l[25;65H5[9;9H[?25h[?25l[25;65H6[9;10H[?25h[?25l[25;65H7[9;11H[?25h[?25le[106m([19C)[m[25;65H8[9;12H[?25h[?25l[25;65H9[9;13H[?25h[?25l([19C)[25;65H10[9;14H[?25h[?25l[31m.fuel_details.xlsx"[m)[25;66H1[9;15H[?25h[?25l[31m.fuel_details.xlsx"[m)[25;66H2[9;16H[?25h[?25l[31m/fuel_details.xlsx"[m)[25;66H3[9;17H[?25h[25;1H[K[9;16H[?25l[25;63H9,12[10CAll[9;16H[?25h[?25l[25;63H[K[25;1H:[?2004h[?25hwq[?25l[?2004l"test.py" 11L, 357C written
-[?2004l[?1l>[?25h[?1049l[23;0;0t]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# vim test.pypython3 test.py 
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py [5Pvim test.py
-[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;25r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[25;1H"test.py" 11L, 357C
-[97m[41mError detected while processing BufRead Auto commands for "*.py":[m
-[97m[41mE518: Unknown option: set [2;1H½[6n[2;1H  [1;1H[>c]10;?]11;?[m[25;1H
-[32mPress ENTER or type command to continue[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[m[1;1H[3L[?25l[1;1H[38;5;130m  1 [m[35mfrom[m openpyxl [35mimport[m Workbook, load_workbook
-[38;5;130m  2 [m[34m#wb = Workbook()[m
-[38;5;130m  3 [m[34m#wb.save("fuel_details.xlsx")[m
-[38;5;130m  4 [mwb = load_workbook([31m"fuel_details.xlsx"[m)
-[38;5;130m  5 [m[34m#wb.create_sheet("sheet1",0)[m
-[38;5;130m  6 [m[34m#wb.create_sheet("sheet2",1)[m
-[38;5;130m  7 [mwb[[31m'sheet1'[m].append([[31m"hello"[m,[31m"my"[m,[31m"name"[m])
-[38;5;130m  8 [m[34m#wb['sheet2'].append(["helloo","mmy","nnname"])[m
-[38;5;130m  9 [mwb.save([31m"../fuel_details.xlsx"[m)
-[38;5;130m 10 [mws = wb[[31m"sheet1"[m]
-[38;5;130m 11 [m[34m#print(ws.delete_rows(1))[m
-[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;1H[K[25;63H1,1[11CAll[1;5H[?25h[?25l[25;63H2[2;5H[?25h[?25l[25;63H3[3;5H[?25h[?25l[25;63H4[4;5H[?25h[?25l[25;63H5[5;5H[?25h[?25l[25;63H6[6;5H[?25h[?25l[25;63H7[7;5H[?25h[?25l[25;63H8[8;5H[?25h[?25l[25;63H9[9;5H[?25h[?25l[25;65H2[9;6H[?25h[?25l[25;65H3[9;7H[?25h[?25l[25;65H4[9;8H[?25h[?25l[25;65H5[9;9H[?25h[?25l[25;65H6[9;10H[?25h[?25l[25;65H7[9;11H[?25h[?25le[106m([22C)[m[25;65H8[9;12H[?25h[?25l([22C)[25;65H9[9;13H[?25h[?25l[25;65H10[9;14H[?25h[?25l[25;66H1[9;15H[?25h[?25l[25;66H2[9;16H[?25h[?25l[25;63H[K[25;1H:[?2004h[?25hwq[?25l[?2004l"test.py" 11L, 357C written
-[?2004l[?1l>[?25h[?1049l[23;0;0t]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# vim test.pypython3 test.py 
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py [5Pvim test.py
-[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;25r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[25;1H"test.py" 11L, 357C
-[97m[41mError detected while processing BufRead Auto commands for "*.py":[m
-[97m[41mE518: Unknown option: set [2;1H½[6n[2;1H  [1;1H[>c]10;?]11;?[m[25;1H
-[32mPress ENTER or type command to continue[?25h[m[1;1H[3L[?25l[1;1H[38;5;130m  1 [m[35mfrom[m openpyxl [35mimport[m Workbook, load_workbook
-[38;5;130m  2 [m[34m#wb = Workbook()[m
-[38;5;130m  3 [m[34m#wb.save("fuel_details.xlsx")[m
-[38;5;130m  4 [mwb = load_workbook([31m"fuel_details.xlsx"[m)
-[38;5;130m  5 [m[34m#wb.create_sheet("sheet1",0)[m
-[38;5;130m  6 [m[34m#wb.create_sheet("sheet2",1)[m
-[38;5;130m  7 [mwb[[31m'sheet1'[m].append([[31m"hello"[m,[31m"my"[m,[31m"name"[m])
-[38;5;130m  8 [m[34m#wb['sheet2'].append(["helloo","mmy","nnname"])[m
-[38;5;130m  9 [mwb.save([31m"../fuel_details.xlsx"[m)
-[38;5;130m 10 [mws = wb[[31m"sheet1"[m]
-[38;5;130m 11 [m[34m#print(ws.delete_rows(1))[m
-[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;1H[K[25;63H1,1[11CAll[1;5H[?25h[?25l[25;63H[K[25;1H:[?2004h[?25hq1[?25l[25;3H[K[25;3H[?25h![?25l[?2004l[25;1H[K[25;1H[?2004l[?1l>[?25h[?1049l[23;0;0t]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# vim test.pypython3 test.py 
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py [5Pvim test.pypython3 test.py 
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
-Traceback (most recent call last):
-  File "test.py", line 4, in <module>
-    wb = load_workbook("fuel_details.xlsx")
-  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 313, in load_workbook
-    data_only, keep_links)
-  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 124, in __init__
-    self.archive = _validate_archive(fn)
-  File "/usr/local/lib/python3.6/dist-packages/openpyxl/reader/excel.py", line 96, in _validate_archive
-    archive = ZipFile(filename, 'r')
-  File "/usr/lib/python3.6/zipfile.py", line 1090, in __init__
-    self.fp = io.open(file, filemode)
-FileNotFoundError: [Errno 2] No such file or directory: 'fuel_details.xlsx'
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
-5
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
-4
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
-4
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
-4
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# python3 test.py 
-4
-Traceback (most recent call last):
-  File "test.py", line 12, in <module>
-    ws.save("../fuel_details.xlsx")
-AttributeError: 'Worksheet' object has no attribute 'save'
-]0;root@localhost: /home/zukz1/fuel_details/cgi-binroot@localhost:/home/zukz1/fuel_details/cgi-bin# cd /home/zukz1/fuel_details/kee palive 
-]0;root@localhost: /home/zukz1/fuel_details/keepaliveroot@localhost:/home/zukz1/fuel_details/keepalive# [Kssh -R 80:localhost:80 ssh.lo calhost.run > localhost.txt 
-ssh_exchange_identification: read: Connection reset by peer
-]0;root@localhost: /home/zukz1/fuel_details/keepaliveroot@localhost:/home/zukz1/fuel_details/keepalive# [K
+Documents  Music      Public	Videos
+$ ps -e
+  PID TTY          TIME CMD
+    1 ?        00:00:02 init
+    2 ?        00:01:43 kthreadd
+    3 ?        00:11:56 ksoftirqd/0
+    6 ?        00:02:36 kworker/u:0
+    7 ?        00:12:24 kworker/u:0H
+    8 ?        00:00:00 migration/0
+   21 ?        00:00:00 khelper
+   22 ?        00:00:00 netns
+   28 ?        00:00:00 modem_notifier
+   29 ?        00:00:00 smd_channel_clo
+   30 ?        00:00:00 smsm_cb_wq
+   32 ?        00:00:00 rpm-smd
+   33 ?        00:00:00 kworker/u:1H
+   34 ?        00:00:00 mpm
+   36 ?        00:00:08 sync_supers
+   37 ?        00:00:00 bdi-default
+   38 ?        00:00:00 kblockd
+   39 ?        00:00:00 system
+   40 ?        00:00:00 khubd
+   41 ?        00:00:00 irq/99-msm_iomm
+   42 ?        00:00:00 irq/105-msm_iom
+   43 ?        00:00:00 irq/77-msm_iomm
+   44 ?        00:00:00 irq/70-msm_iomm
+   45 ?        00:00:00 irq/94-msm_iomm
+   46 ?        00:00:00 irq/102-msm_iom
+   47 ?        00:00:00 irq/102-msm_iom
+   48 ?        00:00:00 irq/102-msm_iom
+   49 ?        00:00:00 irq/79-msm_iomm
+   50 ?        00:00:00 irq/78-msm_iomm
+   51 ?        00:00:00 irq/78-msm_iomm
+   52 ?        00:00:00 irq/74-msm_iomm
+   53 ?        00:00:00 irq/75-msm_iomm
+   54 ?        00:00:00 irq/75-msm_iomm
+   55 ?        00:00:00 irq/75-msm_iomm
+   56 ?        00:00:00 irq/75-msm_iomm
+   57 ?        00:00:00 irq/273-msm_iom
+   58 ?        00:00:00 irq/273-msm_iom
+   59 ?        00:00:00 irq/273-msm_iom
+   60 ?        00:00:00 irq/97-msm_iomm
+   61 ?        00:00:00 irq/97-msm_iomm
+   62 ?        00:00:00 irq/97-msm_iomm
+   63 ?        00:00:00 devfreq_wq
+   64 ?        00:00:00 l2cap
+   65 ?        00:00:00 a2mp
+   66 ?        00:00:00 cfg80211
+   82 ?        00:00:00 irq/480-adsp
+   83 ?        00:00:00 irq/416-mba
+   84 ?        00:00:00 irq/544-wcnss
+   85 ?        00:00:00 qmi
+   86 ?        00:00:00 nmea
+   87 ?        00:00:00 msm_ipc_router
+   88 ?        00:00:00 apr_driver
+   92 ?        00:00:18 kswapd0
+   93 ?        00:00:00 ksmd
+   94 ?        00:00:00 fsnotify_mark
+   95 ?        00:00:00 ecryptfs-kthrea
+   96 ?        00:00:00 crypto
+  117 ?        00:00:00 ad_calc_wq
+  118 ?        00:00:00 livedisplay_wq
+  119 ?        00:00:00 mdss_dsi_event
+  120 ?        00:00:00 k_hsuart
+  121 ?        00:00:00 diag_real_time_
+  122 ?        00:00:00 diag_modem_data
+  123 ?        00:00:00 diag_lpass_data
+  124 ?        00:00:00 diag_wcnss_data
+  125 ?        00:00:00 diag_wq
+  126 ?        00:00:00 diag_usb_wq
+  127 ?        00:00:00 diag_cntl_wq
+  128 ?        00:00:00 diag_dci_wq
+  129 ?        00:00:00 kgsl-3d0
+  130 ?        00:00:00 kgsl-events
+  131 ?        00:00:00 kgsl_devfreq_wq
+  132 ?        00:00:00 irq/346-tfa9890
+  133 ?        00:00:00 irq/638-cclogic
+  134 ?        00:00:00 spi4
+  137 ?        00:00:00 usbnet
+  138 ?        00:00:00 k_rmnet_mux_wor
+  139 ?        00:00:00 f_mtp
+  140 ?        00:00:00 file-storage
+  141 ?        00:00:00 uether
+  143 ?        00:00:00 goodix_wq
+  144 ?        00:00:00 gtp_esd_check
+  145 ?        00:00:00 irq/345-misc_ha
+  146 ?        00:00:00 fpc1020_wq
+  147 ?        00:00:00 msm_vidc_worker
+  148 ?        00:00:00 pm_workerq_venu
+  149 ?        00:00:00 msm_vidc_worker
+  151 ?        00:00:00 msm_cpp_workque
+  152 ?        00:00:00 dm_bufio_cache
+  153 ?        00:00:00 dbs_sync/0
+  154 ?        00:00:00 dbs_sync/1
+  155 ?        00:00:00 dbs_sync/2
+  156 ?        00:00:00 dbs_sync/3
+  157 ?        00:02:11 cfinteractive
+  158 ?        00:00:03 irq/170-msm_sdc
+  159 ?        00:00:00 irq/253-msm_sdc
+  160 ?        00:00:00 irq/289-msm_sdc
+  178 ?        00:00:00 binder
+  179 ?        00:00:00 usb_bam_wq
+  180 ?        00:00:00 bam_dmux_rx
+  181 ?        00:00:00 bam_dmux_tx
+  182 ?        00:00:00 rq_stats
+  183 ?        00:00:00 deferwq
+  186 ?        00:00:00 sb-1
+  187 ?        00:00:00 irq/195-ngd_sli
+  188 ?        00:00:00 ngd_rx_thread1
+  189 ?        00:00:00 ngd_notify_sl1
+  190 ?        00:00:00 msm_thermal:hot
+  191 ?        00:00:00 msm_thermal:fre
+  192 ?        00:00:00 msm_thermal:the
+  193 ?        00:00:13 boost_sync/0
+  194 ?        00:00:00 boost_sync/1
+  195 ?        00:00:01 boost_sync/2
+  196 ?        00:00:10 boost_sync/3
+  199 ?        00:13:33 mmcqd/0
+  200 ?        00:00:00 mmcqd/0rpmb
+  201 ?        00:39:39 ueventd
+  202 ?        00:00:00 irq/300-bsi-bat
+  204 ?        00:00:00 irq/642-bq24192
+  205 ?        00:00:00 irq/643-bq27531
+  207 ?        00:00:00 jbd2/mmcblk0p22
+  208 ?        00:00:00 ext4-dio-unwrit
+  211 ?        00:01:42 flush-179:0
+  214 ?        00:02:06 jbd2/mmcblk0p23
+  215 ?        00:00:00 ext4-dio-unwrit
+  219 ?        00:00:00 jbd2/mmcblk0p21
+  220 ?        00:00:00 ext4-dio-unwrit
+  221 ?        00:00:00 jbd2/mmcblk0p19
+  222 ?        00:00:00 ext4-dio-unwrit
+  223 ?        00:00:00 jbd2/mmcblk0p12
+  224 ?        00:00:00 ext4-dio-unwrit
+  225 ?        00:15:56 logd
+  230 ?        00:00:00 kauditd
+  233 ?        00:00:00 debuggerd
+  234 ?        00:00:47 vold
+  235 ?        00:00:00 debuggerd:sig
+  266 ?        00:00:00 IPCRTR
+  267 ?        00:00:00 ipc_rtr_q6_ipcr
+  268 ?        00:01:56 healthd
+  269 ?        00:00:06 rmt_storage
+  270 ?        00:00:00 rfs_access
+  271 ?        00:00:00 msm_slim_qmi_cl
+  272 ?        00:00:00 msm_qmi_rtx_q
+  273 ?        00:00:00 qseecomd
+  276 ?        00:01:58 lmkd
+  277 ?        00:03:32 servicemanager
+  278 ?        00:01:18 surfaceflinger
+  279 ?        00:00:00 su
+  280 ?        00:18:19 qmuxd
+  281 ?        00:01:54 netmgrd
+  283 ?        00:00:00 thermal-engine
+  284 ?        00:00:00 adsprpcd
+  285 ?        00:00:00 wcnss_service
+  286 ?        00:00:00 rild
+  287 ?        00:00:08 main
+  288 ?        00:00:05 audioserver
+  289 ?        00:00:00 cameraserver
+  290 ?        00:00:00 drmserver
+  291 ?        00:01:44 installd
+  292 ?        00:01:16 keystore
+  293 ?        00:00:01 mediacodec
+  295 ?        00:00:00 mediadrmserver
+  296 ?        00:00:00 mediaextractor
+  297 ?        00:00:01 mediaserver
+  298 ?        00:01:55 Binder:298_2
+  300 ?        01:11:48 rild
+  301 ?        00:03:23 sensors.qcom
+  302 ?        00:00:00 loc_launcher
+  303 ?        00:00:01 mm-qcamera-daem
+  304 ?        00:00:00 time_daemon
+  305 ?        00:00:00 audiod
+  306 ?        00:00:01 fingerprintd
+  307 ?        00:00:00 gatekeeperd
+  308 ?        00:00:00 perfprofd
+  309 ?        00:00:00 qseecomd
+  314 ?        00:00:00 irq/288-wcd9xxx
+  315 ?        00:12:09 irq/33-cpubw_hw
+  404 ?        00:00:03 mdss_fb0
+  501 ?        00:00:00 IPCRTR
+  502 ?        00:00:00 ipc_rtr_smd_ipc
+  685 ?        00:00:00 d.process.media
+ 1113 ?        00:00:00 kworker/u:1
+ 1223 ?        00:00:01 kworker/0:3
+ 1456 ?        00:00:04 ndroid.gms:snet
+ 1637 ?        00:00:00 IPCRTR
+ 1655 ?        00:00:00 kworker/0:1
+ 1711 ?        00:00:00 ipc_rtr_wcnss_i
+ 1715 ?        02:23:06 system_server
+ 1928 pts/0    00:00:00 sh
+ 1951 ?        00:00:00 kworker/0:2H
+ 2019 pts/4    00:00:00 sh
+ 2042 pts/4    00:00:14 teleconsole
+ 2087 pts/5    00:00:00 sh
+ 2195 ?        00:00:00 kworker/0:4
+ 2201 pts/5    00:00:00 ps
+ 2897 ?        00:14:24 ndroid.systemui
+ 2907 ?        00:00:14 sdcard
+ 3441 ?        00:00:45 cmaudio.service
+ 3505 ?        00:54:24 .gms.persistent
+ 3518 ?        00:37:39 m.android.phone
+ 4092 pts/2    00:00:00 sh
+ 4576 ?        00:00:48 id.ext.services
+ 4581 ?        00:50:21 mpdecision
+ 4714 ?        00:14:48 m.sand.airdroid
+ 4761 ?        00:00:43 .weatherservice
+ 4780 ?        00:00:43 ogenmod.audiofx
+ 4909 ?        00:00:48 android.smspush
+ 5011 pts/2    00:13:11 python3
+ 5195 ?        00:02:07 android.vending
+ 6928 ?        00:00:02 viders.calendar
+ 7184 ?        00:00:04 dbus-daemon
+ 7193 ?        00:00:00 systemd-logind
+ 7214 ?        00:00:00 sshd
+ 7243 ?        00:09:35 Xtightvnc
+ 7269 ?        00:00:00 xfce4-session
+ 7274 ?        00:00:00 dbus-launch
+ 7275 ?        00:00:08 dbus-daemon
+ 7280 ?        00:00:01 xfconfd
+ 7285 ?        00:00:00 ssh-agent
+ 7287 ?        00:00:00 gpg-agent
+ 7289 ?        00:00:57 xfwm4
+ 7293 ?        00:02:58 xfce4-panel
+ 7296 ?        00:01:30 Thunar
+ 7298 ?        00:01:31 xfdesktop
+ 7305 ?        00:00:01 xfsettingsd
+ 7310 ?        00:00:01 panel-6-systray
+ 7312 ?        00:00:01 panel-2-actions
+ 7449 ?        00:00:14 WD_Thread
+ 7451 ?        00:03:04 MC_Thread
+ 7452 ?        00:04:59 TX_Thread
+ 7453 ?        00:08:42 RX_Thread
+ 7457 ?        00:00:04 wlan_logging_th
+ 7464 ?        00:00:50 hostapd
+ 7490 ?        00:00:01 ndroid.calendar
+ 7508 ?        00:00:15 dnsmasq
+ 8492 ?        00:40:13 xfce4-terminal
+ 8777 pts/1    00:00:00 sh
+ 8833 pts/1    00:00:00 sudo
+ 8834 pts/1    00:00:00 su
+ 8842 pts/1    00:00:00 bash
+ 8857 pts/1    00:00:00 python3
+ 8863 pts/1    00:00:00 sh
+ 8864 pts/1    00:11:56 python3
+ 8924 pts/3    00:00:00 sh
+ 8939 pts/3    00:00:01 ssh
+ 9091 ?        00:05:03 gedit
+ 9102 ?        00:00:00 dconf-service
+11571 ?        00:00:02 m.android.email
+11655 ?        00:00:02 enmod.lockclock
+11698 ?        00:00:12 .qcrilmsgtunnel
+11719 ?        00:00:10 d.airdroid:push
+11800 ?        00:01:54 gle.android.gms
+11823 ?        00:00:05 e.process.gapps
+12216 ?        00:00:02 droid.deskclock
+12441 ?        00:00:06 kworker/0:0H
+21353 ?        00:00:09 fik.linuxdeploy
+24286 ?        00:00:44 putmethod.latin
+26995 ?        00:00:01 id.gms.unstable
+31112 ?        00:00:12 kworker/0:0
+31481 ?        00:00:01 kworker/u:4
+31686 ?        00:00:00 omm.timeservice
+32292 ?        00:00:01 kworker/u:3
+32675 ?        00:00:00 kworker/0:1H
+32695 ?        00:00:03 kworker/0:2
+$ ps -ef
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0  2019 ?        00:00:02 /init --second-stage
+root         2     0  0  2019 ?        00:01:43 [kthreadd]
+root         3     2  0  2019 ?        00:11:56 [ksoftirqd/0]
+root         6     2  0  2019 ?        00:02:36 [kworker/u:0]
+root         7     2  0  2019 ?        00:12:24 [kworker/u:0H]
+root         8     2  0  2019 ?        00:00:00 [migration/0]
+root        21     2  0  2019 ?        00:00:00 [khelper]
+root        22     2  0  2019 ?        00:00:00 [netns]
+root        28     2  0  2019 ?        00:00:00 [modem_notifier]
+root        29     2  0  2019 ?        00:00:00 [smd_channel_clo]
+root        30     2  0  2019 ?        00:00:00 [smsm_cb_wq]
+root        32     2  0  2019 ?        00:00:00 [rpm-smd]
+root        33     2  0  2019 ?        00:00:00 [kworker/u:1H]
+root        34     2  0  2019 ?        00:00:00 [mpm]
+root        36     2  0  2019 ?        00:00:08 [sync_supers]
+root        37     2  0  2019 ?        00:00:00 [bdi-default]
+root        38     2  0  2019 ?        00:00:00 [kblockd]
+root        39     2  0  2019 ?        00:00:00 [system]
+root        40     2  0  2019 ?        00:00:00 [khubd]
+root        41     2  0  2019 ?        00:00:00 [irq/99-msm_iomm]
+root        42     2  0  2019 ?        00:00:00 [irq/105-msm_iom]
+root        43     2  0  2019 ?        00:00:00 [irq/77-msm_iomm]
+root        44     2  0  2019 ?        00:00:00 [irq/70-msm_iomm]
+root        45     2  0  2019 ?        00:00:00 [irq/94-msm_iomm]
+root        46     2  0  2019 ?        00:00:00 [irq/102-msm_iom]
+root        47     2  0  2019 ?        00:00:00 [irq/102-msm_iom]
+root        48     2  0  2019 ?        00:00:00 [irq/102-msm_iom]
+root        49     2  0  2019 ?        00:00:00 [irq/79-msm_iomm]
+root        50     2  0  2019 ?        00:00:00 [irq/78-msm_iomm]
+root        51     2  0  2019 ?        00:00:00 [irq/78-msm_iomm]
+root        52     2  0  2019 ?        00:00:00 [irq/74-msm_iomm]
+root        53     2  0  2019 ?        00:00:00 [irq/75-msm_iomm]
+root        54     2  0  2019 ?        00:00:00 [irq/75-msm_iomm]
+root        55     2  0  2019 ?        00:00:00 [irq/75-msm_iomm]
+root        56     2  0  2019 ?        00:00:00 [irq/75-msm_iomm]
+root        57     2  0  2019 ?        00:00:00 [irq/273-msm_iom]
+root        58     2  0  2019 ?        00:00:00 [irq/273-msm_iom]
+root        59     2  0  2019 ?        00:00:00 [irq/273-msm_iom]
+root        60     2  0  2019 ?        00:00:00 [irq/97-msm_iomm]
+root        61     2  0  2019 ?        00:00:00 [irq/97-msm_iomm]
+root        62     2  0  2019 ?        00:00:00 [irq/97-msm_iomm]
+root        63     2  0  2019 ?        00:00:00 [devfreq_wq]
+root        64     2  0  2019 ?        00:00:00 [l2cap]
+root        65     2  0  2019 ?        00:00:00 [a2mp]
+root        66     2  0  2019 ?        00:00:00 [cfg80211]
+root        82     2  0  2019 ?        00:00:00 [irq/480-adsp]
+root        83     2  0  2019 ?        00:00:00 [irq/416-mba]
+root        84     2  0  2019 ?        00:00:00 [irq/544-wcnss]
+root        85     2  0  2019 ?        00:00:00 [qmi]
+root        86     2  0  2019 ?        00:00:00 [nmea]
+root        87     2  0  2019 ?        00:00:00 [msm_ipc_router]
+root        88     2  0  2019 ?        00:00:00 [apr_driver]
+root        92     2  0  2019 ?        00:00:18 [kswapd0]
+root        93     2  0  2019 ?        00:00:00 [ksmd]
+root        94     2  0  2019 ?        00:00:00 [fsnotify_mark]
+root        95     2  0  2019 ?        00:00:00 [ecryptfs-kthrea]
+root        96     2  0  2019 ?        00:00:00 [crypto]
+root       117     2  0  2019 ?        00:00:00 [ad_calc_wq]
+root       118     2  0  2019 ?        00:00:00 [livedisplay_wq]
+root       119     2  0  2019 ?        00:00:00 [mdss_dsi_event]
+root       120     2  0  2019 ?        00:00:00 [k_hsuart]
+root       121     2  0  2019 ?        00:00:00 [diag_real_time_]
+root       122     2  0  2019 ?        00:00:00 [diag_modem_data]
+root       123     2  0  2019 ?        00:00:00 [diag_lpass_data]
+root       124     2  0  2019 ?        00:00:00 [diag_wcnss_data]
+root       125     2  0  2019 ?        00:00:00 [diag_wq]
+root       126     2  0  2019 ?        00:00:00 [diag_usb_wq]
+root       127     2  0  2019 ?        00:00:00 [diag_cntl_wq]
+root       128     2  0  2019 ?        00:00:00 [diag_dci_wq]
+root       129     2  0  2019 ?        00:00:00 [kgsl-3d0]
+root       130     2  0  2019 ?        00:00:00 [kgsl-events]
+root       131     2  0  2019 ?        00:00:00 [kgsl_devfreq_wq]
+root       132     2  0  2019 ?        00:00:00 [irq/346-tfa9890]
+root       133     2  0  2019 ?        00:00:00 [irq/638-cclogic]
+root       134     2  0  2019 ?        00:00:00 [spi4]
+root       137     2  0  2019 ?        00:00:00 [usbnet]
+root       138     2  0  2019 ?        00:00:00 [k_rmnet_mux_wor]
+root       139     2  0  2019 ?        00:00:00 [f_mtp]
+root       140     2  0  2019 ?        00:00:00 [file-storage]
+root       141     2  0  2019 ?        00:00:00 [uether]
+root       143     2  0  2019 ?        00:00:00 [goodix_wq]
+root       144     2  0  2019 ?        00:00:00 [gtp_esd_check]
+root       145     2  0  2019 ?        00:00:00 [irq/345-misc_ha]
+root       146     2  0  2019 ?        00:00:00 [fpc1020_wq]
+root       147     2  0  2019 ?        00:00:00 [msm_vidc_worker]
+root       148     2  0  2019 ?        00:00:00 [pm_workerq_venu]
+root       149     2  0  2019 ?        00:00:00 [msm_vidc_worker]
+root       151     2  0  2019 ?        00:00:00 [msm_cpp_workque]
+root       152     2  0  2019 ?        00:00:00 [dm_bufio_cache]
+root       153     2  0  2019 ?        00:00:00 [dbs_sync/0]
+root       154     2  0  2019 ?        00:00:00 [dbs_sync/1]
+root       155     2  0  2019 ?        00:00:00 [dbs_sync/2]
+root       156     2  0  2019 ?        00:00:00 [dbs_sync/3]
+root       157     2  0  2019 ?        00:02:11 [cfinteractive]
+root       158     2  0  2019 ?        00:00:03 [irq/170-msm_sdc]
+root       159     2  0  2019 ?        00:00:00 [irq/253-msm_sdc]
+root       160     2  0  2019 ?        00:00:00 [irq/289-msm_sdc]
+root       178     2  0  2019 ?        00:00:00 [binder]
+root       179     2  0  2019 ?        00:00:00 [usb_bam_wq]
+root       180     2  0  2019 ?        00:00:00 [bam_dmux_rx]
+root       181     2  0  2019 ?        00:00:00 [bam_dmux_tx]
+root       182     2  0  2019 ?        00:00:00 [rq_stats]
+root       183     2  0  2019 ?        00:00:00 [deferwq]
+root       186     2  0  2019 ?        00:00:00 [sb-1]
+root       187     2  0  2019 ?        00:00:00 [irq/195-ngd_sli]
+root       188     2  0  2019 ?        00:00:00 [ngd_rx_thread1]
+root       189     2  0  2019 ?        00:00:00 [ngd_notify_sl1]
+root       190     2  0  2019 ?        00:00:00 [msm_thermal:hot]
+root       191     2  0  2019 ?        00:00:00 [msm_thermal:fre]
+root       192     2  0  2019 ?        00:00:00 [msm_thermal:the]
+root       193     2  0  2019 ?        00:00:13 [boost_sync/0]
+root       194     2  0  2019 ?        00:00:00 [boost_sync/1]
+root       195     2  0  2019 ?        00:00:01 [boost_sync/2]
+root       196     2  0  2019 ?        00:00:10 [boost_sync/3]
+root       199     2  0  2019 ?        00:13:33 [mmcqd/0]
+root       200     2  0  2019 ?        00:00:00 [mmcqd/0rpmb]
+root       201     1  0  2019 ?        00:39:39 /sbin/ueventd
+root       202     2  0  2019 ?        00:00:00 [irq/300-bsi-bat]
+root       204     2  0  2019 ?        00:00:00 [irq/642-bq24192]
+root       205     2  0  2019 ?        00:00:00 [irq/643-bq27531]
+root       207     2  0  2019 ?        00:00:00 [jbd2/mmcblk0p22]
+root       208     2  0  2019 ?        00:00:00 [ext4-dio-unwrit]
+root       211     2  0  2019 ?        00:01:42 [flush-179:0]
+root       214     2  0  2019 ?        00:02:06 [jbd2/mmcblk0p23]
+root       215     2  0  2019 ?        00:00:00 [ext4-dio-unwrit]
+root       219     2  0  2019 ?        00:00:00 [jbd2/mmcblk0p21]
+root       220     2  0  2019 ?        00:00:00 [ext4-dio-unwrit]
+root       221     2  0  2019 ?        00:00:00 [jbd2/mmcblk0p19]
+root       222     2  0  2019 ?        00:00:00 [ext4-dio-unwrit]
+root       223     2  0  2019 ?        00:00:00 [jbd2/mmcblk0p12]
+root       224     2  0  2019 ?        00:00:00 [ext4-dio-unwrit]
+aid_logd   225     1  0  2019 ?        00:15:56 /system/bin/logd
+root       230     2  0  2019 ?        00:00:00 [kauditd]
+root       233     1  0  2019 ?        00:00:00 /system/bin/debuggerd
+root       234     1  0  2019 ?        00:00:47 /system/bin/vold --blkid_context
+root       235   233  0  2019 ?        00:00:00 debuggerd:signaller
+root       266     2  0  2019 ?        00:00:00 [IPCRTR]
+root       267     2  0  2019 ?        00:00:00 [ipc_rtr_q6_ipcr]
+root       268     1  0  2019 ?        00:01:56 /sbin/healthd
+aid_nob+   269     1  0  2019 ?        00:00:06 /system/bin/rmt_storage
+aid_sys+   270     1  0  2019 ?        00:00:00 /system/bin/rfs_access
+root       271     2  0  2019 ?        00:00:00 [msm_slim_qmi_cl]
+root       272     2  0  2019 ?        00:00:00 [msm_qmi_rtx_q]
+aid_sys+   273     1  0  2019 ?        00:00:00 /system/bin/qseecomd
+root       276     1  0  2019 ?        00:01:58 /system/bin/lmkd
+aid_sys+   277     1  0  2019 ?        00:03:32 /system/bin/servicemanager
+aid_sys+   278     1  0  2019 ?        00:01:18 /system/bin/surfaceflinger
+root       279     1  0  2019 ?        00:00:00 /system/xbin/su --daemon
+aid_rad+   280     1  0  2019 ?        00:18:19 /system/bin/qmuxd
+aid_rad+   281     1  0  2019 ?        00:01:54 /system/bin/netmgrd
+root       283     1  0  2019 ?        00:00:00 /system/vendor/bin/thermal-engin
+aid_med+   284     1  0  2019 ?        00:00:00 /system/bin/adsprpcd
+aid_sys+   285     1  0  2019 ?        00:00:00 /system/bin/wcnss_service
+aid_rad+   286     1  0  2019 ?        00:00:00 /system/bin/rild -c 2
+root       287     1  0  2019 ?        00:00:08 zygote
+aid_aud+   288     1  0  2019 ?        00:00:05 /system/bin/audioserver
+aid_cam+   289     1  0  2019 ?        00:00:00 /system/bin/cameraserver
+aid_drm    290     1  0  2019 ?        00:00:00 /system/bin/drmserver
+root       291     1  0  2019 ?        00:01:44 /system/bin/installd
+aid_key+   292     1  0  2019 ?        00:01:16 /system/bin/keystore /data/misc/
+aid_med+   293     1  0  2019 ?        00:00:01 media.codec mediacodec
+aid_med+   295     1  0  2019 ?        00:00:00 /system/bin/mediadrmserver
+aid_med+   296     1  0  2019 ?        00:00:00 media.extractor aextractor
+aid_med+   297     1  0  2019 ?        00:00:01 /system/bin/mediaserver
+root       298     1  0  2019 ?        00:01:55 /system/bin/netd
+aid_rad+   300     1  0  2019 ?        01:11:48 /system/bin/rild
+aid_uhid   301     1  0  2019 ?        00:03:23 /system/bin/sensors.qcom
+aid_gps    302     1  0  2019 ?        00:00:00 /system/bin/loc_launcher
+aid_cam+   303     1  0  2019 ?        00:00:01 /system/bin/mm-qcamera-daemon
+aid_sys+   304     1  0  2019 ?        00:00:00 /system/bin/time_daemon
+aid_sys+   305     1  0  2019 ?        00:00:00 /system/bin/audiod
+aid_sys+   306     1  0  2019 ?        00:00:01 /system/bin/fingerprintd
+aid_sys+   307     1  0  2019 ?        00:00:00 /system/bin/gatekeeperd /data/mi
+root       308     1  0  2019 ?        00:00:00 /system/xbin/perfprofd
+aid_sys+   309   273  0  2019 ?        00:00:00 /system/bin/qseecomd
+root       314     2  0  2019 ?        00:00:00 [irq/288-wcd9xxx]
+root       315     2  0  2019 ?        00:12:09 [irq/33-cpubw_hw]
+root       404     2  0  2019 ?        00:00:03 [mdss_fb0]
+root       501     2  0  2019 ?        00:00:00 [IPCRTR]
+root       502     2  0  2019 ?        00:00:00 [ipc_rtr_smd_ipc]
+10012      685   287  0 00:14 ?        00:00:00 android.process.media
+root      1113     2  0 00:17 ?        00:00:00 [kworker/u:1]
+root      1223     2  0 00:18 ?        00:00:01 [kworker/0:3]
+10035     1456   287  1 00:20 ?        00:00:04 com.google.android.gms:snet
+root      1637     2  0  2019 ?        00:00:00 [IPCRTR]
+root      1655     2  0 00:23 ?        00:00:00 [kworker/0:1]
+root      1711     2  0  2019 ?        00:00:00 [ipc_rtr_wcnss_i]
+aid_sys+  1715   287  1  2019 ?        02:23:06 system_server
+zukz1     1928  8492  0 00:24 pts/0    00:00:00 sh
+root      1951     2  0 00:24 ?        00:00:00 [kworker/0:2H]
+zukz1     2019  8492  0 00:24 pts/4    00:00:00 sh
+zukz1     2042  2019 24 00:24 pts/4    00:00:15 ./teleconsole
+zukz1     2087  2042  0 00:25 pts/5    00:00:00 -sh
+root      2195     2  0 00:25 ?        00:00:00 [kworker/0:4]
+zukz1     2231  2087  0 00:26 pts/5    00:00:00 ps -ef
+10029     2897   287  0  2019 ?        00:14:24 com.android.systemui
+aid_med+  2907   234  0  2019 ?        00:00:14 /system/bin/sdcard -u 1023 -g 10
+10002     3441   287  0  2019 ?        00:00:45 org.cyanogenmod.cmaudio.service
+10035     3505   287  0  2019 ?        00:54:24 com.google.android.gms.persisten
+aid_rad+  3518   287  0  2019 ?        00:37:39 com.android.phone
+zukz1     4092  8492  0  2019 pts/2    00:00:00 sh
+10039     4576   287  0  2019 ?        00:00:48 com.google.android.ext.services
+root      4581     1  0  2019 ?        00:50:22 /system/bin/mpdecision --avg_com
+10080     4714   287  0  2019 ?        00:14:48 com.sand.airdroid
+10034     4761   287  0  2019 ?        00:00:43 org.cyanogenmod.weatherservice
+10001     4780   287  0  2019 ?        00:00:43 org.cyanogenmod.audiofx
+10069     4909   287  0  2019 ?        00:00:48 com.android.smspush
+zukz1     5011  4092  0  2019 pts/2    00:13:11 python3 alive.py
+10040     5195   287  0  2019 ?        00:02:07 com.android.vending
+10004     6928   287  0 Jan01 ?        00:00:02 com.android.providers.calendar
+message+  7184     1  0  2019 ?        00:00:04 dbus-daemon --system --fork
+root      7193     1  0  2019 ?        00:00:00 /lib/systemd/systemd-logind
+root      7214     1  0  2019 ?        00:00:00 /usr/sbin/sshd -p 22
+zukz1     7243     1  0  2019 ?        00:09:35 Xtightvnc :0 -desktop X -auth /h
+zukz1     7269     1  0  2019 ?        00:00:00 xfce4-session
+zukz1     7274     1  0  2019 ?        00:00:00 dbus-launch --exit-with-session 
+zukz1     7275     1  0  2019 ?        00:00:08 /usr/bin/dbus-daemon --syslog --
+zukz1     7280     1  0  2019 ?        00:00:01 /usr/lib/arm-linux-gnueabihf/xfc
+zukz1     7285     1  0  2019 ?        00:00:00 /usr/bin/ssh-agent -s
+zukz1     7287     1  0  2019 ?        00:00:00 /usr/bin/gpg-agent --sh --daemon
+zukz1     7289     1  0  2019 ?        00:00:57 xfwm4
+zukz1     7293     1  0  2019 ?        00:02:58 xfce4-panel
+zukz1     7296     1  0  2019 ?        00:01:30 Thunar --daemon
+zukz1     7298     1  0  2019 ?        00:01:31 xfdesktop
+zukz1     7305     1  0  2019 ?        00:00:01 xfsettingsd
+zukz1     7310  7293  0  2019 ?        00:00:01 /usr/lib/arm-linux-gnueabihf/xfc
+zukz1     7312  7293  0  2019 ?        00:00:01 /usr/lib/arm-linux-gnueabihf/xfc
+root      7449     2  0  2019 ?        00:00:14 [WD_Thread]
+root      7451     2  0  2019 ?        00:03:04 [MC_Thread]
+root      7452     2  0  2019 ?        00:04:59 [TX_Thread]
+root      7453     2  0  2019 ?        00:08:42 [RX_Thread]
+root      7457     2  0  2019 ?        00:00:04 [wlan_logging_th]
+aid_wifi  7464   298  0  2019 ?        00:00:50 /system/bin/hostapd -e /data/mis
+10049     7490   287  0 Jan01 ?        00:00:01 com.android.calendar
+aid_nob+  7508   298  0  2019 ?        00:00:15 /system/bin/dnsmasq --keep-in-fo
+zukz1     8492     1  0  2019 ?        00:40:13 xfce4-terminal
+zukz1     8777  8492  0  2019 pts/1    00:00:00 sh
+root      8833  8777  0  2019 pts/1    00:00:00 sudo su
+root      8834  8833  0  2019 pts/1    00:00:00 su
+root      8842  8834  0  2019 pts/1    00:00:00 bash
+root      8857  8842  0  2019 pts/1    00:00:00 python3 server.py
+root      8863  8857  0  2019 pts/1    00:00:00 sh -c python3 -m http.server --c
+root      8864  8863  0  2019 pts/1    00:11:56 python3 -m http.server --cgi 80
+zukz1     8924  8492  0 Jan01 pts/3    00:00:00 sh
+zukz1     8939  8924  0 Jan01 pts/3    00:00:01 ssh -R 80:localhost:80 ssh.local
+zukz1     9091     1  0  2019 ?        00:05:03 gedit /home/zukz1/fuel_details/c
+zukz1     9102     1  0  2019 ?        00:00:00 /usr/lib/dconf/dconf-service
+10057    11571   287  0 Jan01 ?        00:00:02 com.android.email
+10059    11655   287  0 Jan01 ?        00:00:02 com.cyanogenmod.lockclock
+aid_rad+ 11698   287  0 Jan01 ?        00:00:12 com.qualcomm.qcrilmsgtunnel
+10080    11719   287  0 Jan01 ?        00:00:10 com.sand.airdroid:push
+10035    11800   287  0 Jan01 ?        00:01:54 com.google.android.gms
+10035    11823   287  0 Jan01 ?        00:00:05 com.google.process.gapps
+10051    12216   287  0 Jan01 ?        00:00:02 com.android.deskclock
+root     12441     2  0 Jan01 ?        00:00:06 [kworker/0:0H]
+10078    21353   287  0  2019 ?        00:00:09 ru.meefik.linuxdeploy
+10076    24286   287  0  2019 ?        00:00:44 com.android.inputmethod.latin
+10035    26995   287  0 Jan01 ?        00:00:01 com.google.android.gms.unstable
+root     31112     2  0 Jan01 ?        00:00:12 [kworker/0:0]
+root     31481     2  0 Jan01 ?        00:00:01 [kworker/u:4]
+aid_sys+ 31686   287  0 Jan01 ?        00:00:00 com.qualcomm.timeservice
+root     32292     2  0 00:04 ?        00:00:01 [kworker/u:3]
+root     32675     2  0 00:11 ?        00:00:00 [kworker/0:1H]
+root     32695     2  0 00:13 ?        00:00:03 [kworker/0:2]
+$ kill -9 2042
